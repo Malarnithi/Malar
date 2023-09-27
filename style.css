@@ -1,5 +1,6 @@
 .container{
     border: dotted;
+    font-family: sans-serif;
 }
 .mainpage{
     width:100%;
@@ -54,14 +55,13 @@
 }
 
 .menu{
-    width: 35%;
+    width: 40%;
     height: 65px;
     float: right;
     margin-top: 10px;
     word-spacing: 32px;
     font-size: 18px;
     padding-top: 10px;
-   
 }
 .content{
     width: 100%;
@@ -119,7 +119,6 @@
     overflow-x: hidden;
     transition: 0.3s;
 }
-
 .popup-content {
     padding: 20px;
 }
@@ -154,12 +153,21 @@ form {
     display: block;
 }
 button{
-    width:20px;
+    width: 30px;
     display: grid;
-    height: 330px;
+    height: 10px;
     justify-content: center;
 }
-
+.vertical-align {
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    white-space: nowrap;
+}
+.vertical-align button{
+    font-size: 18px;
+    color: #333;
+}
 label {
     font-weight: 600;
 }
@@ -199,6 +207,8 @@ input[type="submit"] {
     background-color: #19467e;
 }
 
+
+
 /* Media query for responsive design */
 @media (max-width: 768px) {
     .popup {
@@ -211,20 +221,22 @@ input[type="submit"] {
     margin: auto; 
 }
 .hmbtn{
-    width: 60%;
-    height: 45px;
+    width: 67%;
+    height: 43px;
     background-color:  #19467e;
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    padding-top: 3px;
 }
 .placement{
     text-align: center;
 }
 .placecnt{
     width:93%;
-    font-size: 18px;
-    word-spacing: 4px;
+    font-family: sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
     margin-top: 20px;
     margin-left: 50px;
     line-height: 28px;
@@ -286,14 +298,15 @@ input[type="submit"] {
     width:100%;
     height:550px;
     background-color: #19467e; 
-    border: dotted;   
+    font-family: sans-serif; 
 }
-cbhead{
-    
+.cbhead{
     color: white;
     text-align: center;
-    margin-top: 70px;
     font-size: 22px;
+    margin-top: 100px;
+    border: dotted;
+    border-color: #19467e;
 }
 .cbtext{
     text-align: center;
@@ -353,7 +366,6 @@ cbhead{
 .nschool {
     width: 100%;
     height: 1500px;
-    border: dotted;
     font-family: sans-serif;
 }
 .nscnt {
@@ -363,7 +375,7 @@ cbhead{
 }
 .nsimg{
     width: 38%;
-    height: 410px;
+    height: 370px;
     float: left;
     margin-left: 150px;
     background-image: url(images/img3.jpg);
@@ -376,16 +388,17 @@ cbhead{
     margin-left: 70px;
 }
 .nshead{
+    width: 100%;
     color: #19467e;
-    height: 150px;
-    font-size: 55px;
+    height: 120px;
+    font-size: 50px; 
 }
 .nsong{
     font-weight: 600;
     color: #f27330;
 }
 .nspara {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(84, 84, 84);
     line-height: 30px;
 }
@@ -393,7 +406,7 @@ cbhead{
     width: 90%;
     height: 410px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .listleft{
     width: 48%;
@@ -408,6 +421,19 @@ cbhead{
 .nsbox{
     width:95%;
     height: 130px;
+}
+@keyframes revealLines {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start from a slightly lower position */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.nsbox .listtext {
+    animation: revealLines 0.8s ease-in-out;
 }
 .img{
     float:left;

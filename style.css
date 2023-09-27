@@ -1,0 +1,431 @@
+.container{
+    border: dotted;
+}
+.mainpage{
+    width:100%;
+    height: 850px;
+}
+.sidebar{
+    width:8%;
+    height: 42px;
+    float: left;
+    margin-top: 200px;
+    margin-right: 40px;
+    background-image: url(images/img2.jpg);
+    background-size: 100% 100%;
+}
+.header{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    border-bottom: 2px solid;
+    color: grey;
+    float: left;
+}
+.social{
+    word-spacing: 15px;
+    padding-top: 10px;
+    float: left;
+}
+.bi bi-facebook{
+    background-color: white;
+}
+.mail{
+    padding-top: 10px;
+    float: left;
+    margin-left: 600px;
+}
+.whatsapp{
+    padding-top: 10px;
+    float: right;
+}
+.menubar{
+    width:80%;
+    height: 65px;
+    margin: auto;
+}
+.logo{
+    margin-top: 10px;
+    width: 10%;
+    height: 65px;
+    float: left;
+    background-image: url(images/logo.jpg);
+    background-size: 100% 100%;
+}
+
+.menu{
+    width: 35%;
+    height: 65px;
+    float: right;
+    margin-top: 10px;
+    word-spacing: 32px;
+    font-size: 18px;
+    padding-top: 10px;
+   
+}
+.content{
+    width: 100%;
+    height: 400px;
+    color: rgb(77, 76, 76);
+    margin-top: 120px;
+}
+@keyframes textAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+/* Apply the animation to the .text-animation class */
+.text-animation {
+    display: inline-block;
+    animation: textAnimation 3s infinite; /* Adjust the duration and timing as needed */
+}
+.text1 {
+    color: grey; /* Initial text color */
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Define the hover effect */
+.text1:hover {
+    color: #f27330; /* Text color on hover */
+}
+.bold{
+    font-weight: 700;
+    padding-left: 30px;
+}
+.text2{
+    font-weight: 600;
+    margin-top: 25px;
+}
+.popup {
+    display: none;
+    position: absolute;
+    top: 50;
+    right: -350px; /* Adjust the distance from the right side */
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.popup-content {
+    padding: 20px;
+}
+
+/* Close button styles */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.text{
+    float: left;
+    width: 45%;
+}
+.image{
+    width: 45%;
+    height: 300px;
+    float: left;
+    background-image: url(images/img1.jpg);
+    background-size: 100% 100%;
+    }
+.form{
+    float: right;
+    display: flex;
+    height: 100px;
+}
+
+/* Styles for the form elements */
+form {
+    display: block;
+}
+button{
+    width:20px;
+    display: grid;
+    height: 330px;
+    justify-content: center;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color:  #19467e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+/* Button to open the form */
+#openForm {
+    background-color:  #f27330;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#openForm:hover {
+    background-color: #19467e;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .popup {
+        right: 0;
+    }
+}
+.home{
+    width: 80%;
+    height: 500px;
+    margin: auto; 
+}
+.hmbtn{
+    width: 60%;
+    height: 45px;
+    background-color:  #19467e;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.placement{
+    text-align: center;
+}
+.placecnt{
+    width:93%;
+    font-size: 18px;
+    word-spacing: 4px;
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height: 28px;
+}
+.placecmpny{
+    width:75%;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 130px;
+    background-image: url(images/brand\ logo.jpg);
+    background-size: 100% 100%;
+ }
+.course{
+    width:100%;
+    height: 966px;
+    border:dotted;
+}
+.coursetop{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.coursebtm{
+    width: 100%;
+    height: 300px;
+    border: dotted;
+    margin-bottom: 100px;
+}
+.fsd{
+    width: 35%;
+    height: 300px;  
+    float: left;
+    margin-left: 160px;
+    border:dotted;
+}
+.fd{
+    width: 35%;
+    height: 300px;
+    float: right;
+    margin-right: 160px;
+    border:dotted;
+}
+.pd{
+    width: 35%;
+    height: 300px;
+    float: left;
+    margin-left: 160px;
+    border:dotted;
+}
+.dm{
+    width: 35%;
+    height: 300px;
+    float: right;
+    margin-right: 160px;
+    border:dotted;
+}
+.courseblu{
+    width:100%;
+    height:550px;
+    background-color: #19467e; 
+    border: dotted;   
+}
+cbhead{
+    
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 22px;
+}
+.cbtext{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+.cbbox{
+    width: 80%;
+    height: 220px;
+    margin: auto;
+}
+.box1, .box2, .box3, .box4, .box5{
+    width: 16.2%;
+    height: 220px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 25px;
+}
+.box1 {
+    float: left;
+    margin-right: 4%;
+}
+.box2 {
+    float: left;
+    margin-right: 4%;
+}
+.box3 {
+    float: left;
+    margin-right: 4%;
+}
+.box4 {
+    float: left;
+    margin-right: 4%;
+}
+.box5 {
+    float: left;
+}
+.b1{
+    width: 100%;
+    height: 80px;
+    color: #f27330 ;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+.b2{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 25px;
+    font-weight: 526;
+    color: #19467e;
+}
+.nschool {
+    width: 100%;
+    height: 1500px;
+    border: dotted;
+    font-family: sans-serif;
+}
+.nscnt {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+}
+.nsimg{
+    width: 38%;
+    height: 410px;
+    float: left;
+    margin-left: 150px;
+    background-image: url(images/img3.jpg);
+    background-size: 100% 100%;
+}
+.nstext{
+    width: 35%;
+    height: 450px;
+    float: left;
+    margin-left: 70px;
+}
+.nshead{
+    color: #19467e;
+    height: 150px;
+    font-size: 55px;
+}
+.nsong{
+    font-weight: 600;
+    color: #f27330;
+}
+.nspara {
+    font-size: 20px;
+    color: rgb(84, 84, 84);
+    line-height: 30px;
+}
+.nslist{
+    width: 90%;
+    height: 410px;
+    margin: auto;
+    margin-top: 60px;
+}
+.listleft{
+    width: 48%;
+    height: 410px;
+    float: left;
+}
+.listright{
+    width: 48%;
+    height: 410px;
+    float: right;
+}
+.nsbox{
+    width:95%;
+    height: 130px;
+}
+.img{
+    float:left;
+    margin-top: 15px;
+}
+.listtext{
+    width: 82%;
+    height: 95px;
+    float: right;
+    margin-top: 15px;
+}
+.nscolor{
+    color: #f27330;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nsfill{
+    font-size: 16px;
+    color: rgb(83, 82, 82);
+    line-height: 20px;
+}

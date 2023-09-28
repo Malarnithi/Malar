@@ -2,21 +2,28 @@
     border: dotted;
     font-family: sans-serif;
 }
-.mainpage{
-    width:100%;
-    height: 850px;
-}
 .sidebar{
     width:8%;
-    height: 42px;
+    height: 400px;
     float: left;
-    margin-top: 200px;
-    margin-right: 40px;
-    background-image: url(images/img2.jpg);
+    margin-top: 240px;
+    background-image: url(images/NS_PNG/Mask\ group-1.png);
     background-size: 100% 100%;
 }
+.mainpage{
+    width:80%;
+    height: 850px;
+    float: left;
+    margin-left: 2%;
+}
+.sidebarright{
+    width:8%;
+    height: 400px;
+    margin-top: 200px;
+    float: right;
+}
 .header{
-    width: 80%;
+    width: 100%;
     height: 50px;
     margin: auto;
     border-bottom: 2px solid;
@@ -34,14 +41,14 @@
 .mail{
     padding-top: 10px;
     float: left;
-    margin-left: 450px;
+    margin-left: 590px;
 }
 .whatsapp{
     padding-top: 10px;
     float: right;
 }
 .menubar{
-    width:80%;
+    width:100%;
     height: 65px;
     margin: auto;
 }
@@ -53,21 +60,21 @@
     background-image: url(images/logo.jpg);
     background-size: 100% 100%;
 }
-
 .menu{
-    width: 40%;
+    width: 38%;
     height: 65px;
     float: right;
     margin-top: 10px;
-    word-spacing: 32px;
+    word-spacing: 40px;
     font-size: 18px;
     padding-top: 10px;
+    margin-left: 400px;
 }
 .content{
     width: 100%;
-    height: 400px;
+    height: 450px;
     color: rgb(77, 76, 76);
-    margin-top: 120px;
+    margin-top: 110px;
 }
 @keyframes textAnimation {
     0% {
@@ -102,10 +109,17 @@
 .bold{
     font-weight: 700;
     padding-left: 30px;
+    margin-top: 20px;
 }
 .text2{
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 30px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+.hmtext{
+    font-size: 45px;
+    word-spacing: 5px;
 }
 .popup {
     display: none;
@@ -133,29 +147,33 @@
 }
 .text{
     float: left;
-    width: 45%;
+    width: 42%;
+    height: 350px;
+    margin-left: 1%;
 }
 .image{
-    width: 45%;
-    height: 300px;
+    width: 52%;
+    height: 350px;
     float: left;
-    background-image: url(images/img1.jpg);
+    background-image: url(images/NS_PNG/Mask\ group.png);
     background-size: 100% 100%;
+    margin-left: 40px;
+    opacity: 1;
     }
+.image:hover {
+        opacity: 0.7;
+      }
 .form{
-    float: right;
+    margin-left: 130px;
     display: flex;
     height: 100px;
 }
-
 /* Styles for the form elements */
-form {
-    display: block;
-}
+
 button{
-    width: 30px;
+    width: 150px;
     display: grid;
-    height: 10px;
+    height: 40px;
     justify-content: center;
 }
 .vertical-align {
@@ -206,9 +224,6 @@ input[type="submit"] {
 #openForm:hover {
     background-color: #19467e;
 }
-
-
-
 /* Media query for responsive design */
 @media (max-width: 768px) {
     .popup {
@@ -216,7 +231,7 @@ input[type="submit"] {
     }
 }
 .home{
-    width: 80%;
+    width: 100%;
     height: 500px;
     margin: auto; 
 }
@@ -228,18 +243,24 @@ input[type="submit"] {
     color: white;
     font-size: 20px;
     padding-top: 3px;
+    margin-top: 30px;
 }
 .placement{
+    width: 100%;
     text-align: center;
 }
 .placecnt{
-    width:93%;
+    width:100%;
     font-family: sans-serif;
-    font-size: 16px;
-    word-spacing: 2px;
+    font-size: 18px;
+    word-spacing: 5px;
     margin-top: 20px;
-    margin-left: 50px;
-    line-height: 28px;
+    line-height: 35px;
+}
+.placehead{
+    width: 100%;
+    font-size: 45px;
+    font-weight: 500;
 }
 .placecmpny{
     width:75%;
@@ -250,49 +271,94 @@ input[type="submit"] {
     background-size: 100% 100%;
  }
 .course{
-    width:100%;
-    height: 966px;
-    border:dotted;
+    width:80%;
+    height: 1170px;
+    font-family: sans-serif;
+    margin-left: 10%;
+    background-color: rgb(253, 253, 253);
+}
+.chead{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    border: dotted;
+    border-color: white;
+}
+.cpara{
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    word-spacing: 3px;
+    line-height: 30px;
 }
 .coursetop{
     width: 100%;
-    height: 300px;
+    height: 350px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .coursebtm{
     width: 100%;
-    height: 300px;
-    border: dotted;
-    margin-bottom: 100px;
+    height: 350px;
 }
 .fsd{
-    width: 35%;
-    height: 300px;  
+    width: 45%;
+    height: 350px;  
     float: left;
-    margin-left: 160px;
-    border:dotted;
+    margin-left: 40px;
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
 }
-.fd{
+.fsdimg, .fdimg, .pdimg, .dmimg {
     width: 35%;
-    height: 300px;
+    height: 350px;
+    float: left;
+}
+.fsdtext, .fdtext, .pdtext, .dmtext {
+    width: 56%;
+    height: 350px;
+    float: left;
+}
+.bordered-text {
+    border: 2px solid black; /* You can customize the border width, style, and color */
+    padding: 5px; /* Add padding to the text inside the border (optional) */
+  }
+.bordered-text{
+    line-height: 50px;
+    word-spacing: 10px;
+    border-radius: 50px;
+    box-sizing: calc();
+    border-color: #639ee6;
+    background-color: #f8faff;
+    box-sizing: border-box;
+    width: calc(40% - 10px); /* Subtract 20 pixels from 50% for padding */
+    padding: 6px;
+}  
+.fd{
+    width: 45%;
+    height: 350px;  
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
     float: right;
-    margin-right: 160px;
-    border:dotted;
+    margin-right: 10px;
 }
 .pd{
-    width: 35%;
-    height: 300px;
+    width: 45%;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
     float: left;
-    margin-left: 160px;
-    border:dotted;
+    margin-left: 40px;
 }
 .dm{
-    width: 35%;
-    height: 300px;
+    width: 45%;
+    height: 350px;  
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
     float: right;
-    margin-right: 160px;
-    border:dotted;
+    margin-right: 10px;
 }
 .courseblu{
     width:100%;
@@ -364,9 +430,11 @@ input[type="submit"] {
     color: #19467e;
 }
 .nschool {
-    width: 100%;
-    height: 1500px;
+    width: 80%;
+    height: 1000px;
     font-family: sans-serif;
+    border: dotted;
+    margin-left: 10%;
 }
 .nscnt {
     width: 100%;
@@ -374,18 +442,18 @@ input[type="submit"] {
     margin-top: 80px;
 }
 .nsimg{
-    width: 38%;
+    width: 47%;
     height: 370px;
     float: left;
-    margin-left: 150px;
-    background-image: url(images/img3.jpg);
+    background-image: url(images/NS_PNG/Untitled-1\ 1.png);
     background-size: 100% 100%;
 }
 .nstext{
-    width: 35%;
+    width: 44%;
     height: 450px;
     float: left;
-    margin-left: 70px;
+    margin-left: 80px;
+    word-spacing: 2px;
 }
 .nshead{
     width: 100%;
@@ -398,25 +466,30 @@ input[type="submit"] {
     color: #f27330;
 }
 .nspara {
-    font-size: 18px;
+    font-size: 19px;
     color: rgb(84, 84, 84);
     line-height: 30px;
 }
 .nslist{
-    width: 90%;
+    width: 100%;
     height: 410px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 .listleft{
-    width: 48%;
+    width: 45%;
     height: 410px;
     float: left;
+    border: dotted;
+    margin-left: 20px;
 }
 .listright{
-    width: 48%;
+    width: 45%;
     height: 410px;
-    float: right;
+    float: left;
+    border: dotted;
+    margin-left: 60px ;
 }
 .nsbox{
     width:95%;
@@ -440,10 +513,11 @@ input[type="submit"] {
     margin-top: 15px;
 }
 .listtext{
-    width: 82%;
-    height: 95px;
+    width: 80%;
+    height: 95px;               
     float: right;
     margin-top: 15px;
+    padding-left: 10px;
 }
 .nscolor{
     color: #f27330;
@@ -454,4 +528,7 @@ input[type="submit"] {
     font-size: 16px;
     color: rgb(83, 82, 82);
     line-height: 20px;
+}
+.testimonial{
+    width:100%
 }

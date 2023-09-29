@@ -533,12 +533,18 @@ input[type="submit"] {
     width:100%
 }
 /*blog page css*/
+.pg5{
+    width: 100%;
+    height: 700px;
+    background-color: #f6fafb;
+}
 .blog{
     width: 80%;
     height: 700px;
     float: left;
     margin-left: 10%;
     font-family: sans-serif;
+    background-color: #f6fafb;
 }
 .bloghead{
     width: 100%;
@@ -553,7 +559,7 @@ input[type="submit"] {
     width: 100%;
     height: 50px;
     text-align: center;
-    color: #333;
+    color: #464646;
     margin-top: 35px;
     font-size: 19px;
     word-spacing: 3px;
@@ -583,7 +589,7 @@ input[type="submit"] {
 .blogimg{
     width:100%;
     height: 200px;
-    border: 2px solid rgb(125, 151, 159);
+    border: 2px solid #87a0bc;
 }
 .b1img, .b2img, .b3img{
     width: 92%;
@@ -594,7 +600,8 @@ input[type="submit"] {
 .b1txt, .b2txt, .b3txt{
     width: 100%;
     height: 220px;
-    border: 2px solid rgb(125, 151, 159); 
+    border: 2px solid #87a0bc; 
+    color: #464646;
 }
 .b1img{
     background-image: url(images/node\ js.jpg);
@@ -626,3 +633,134 @@ input[type="submit"] {
     left: 325px; 
     bottom: 18px;
 }
+/* contact starts */
+.pg6{
+    width:100%;
+    height: 480px;
+    background-color: #19467e;
+    font-family: sans-serif;
+}
+.contact{
+    width: 80%;
+    margin-left: 10%;
+    height: 478px;
+    color: white;
+    border-bottom: solid;
+}
+.cnbox1{
+    width: 30%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    padding-top: 32px;
+}
+.cnbox2{
+    width: 15%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 19px;
+}
+.cnbox3{
+    width: 15%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 19px;
+}
+.cnbox4{
+    width: 17%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 19px;
+}
+.cbe{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+a.cnboxhead{
+    font-size: 35px;
+    font-weight: 400px;
+}
+p.cnboxhead{
+    font-size: 35px;
+    font-weight: 400px;
+}
+/* page6 ends */
+/* page7 starts */
+.pg7{
+    width: 100%;
+    height: 230px;
+    background-color: #002655;
+}
+.contactbtm{
+    width: 80%;
+    height: 225px;
+    margin: auto;
+    border: dotted;
+    color: white;
+    font-family: sans-serif;
+    border-color: #002655;
+}
+.cnbtm1{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+}
+.cnbtmleft{
+    width: 10%;
+    height:78px;
+    border: dotted;
+    float: left;
+    margin-right: 60px;
+}
+.cnbtmright{
+    width: 84%;
+    height:80px;
+    float: left;
+    font-size: 19px;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+.cnbtm2{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 19px;
+}
+.cnbtmlft{
+    width: 68%;
+    height: 40px;
+    float: left;
+    word-spacing: 32px;
+}
+.cnbtmrgt{
+    width: 31%;
+    height: 40px;
+    float: left;
+    text-align: right;
+}
+@media (max-width: 768px) {
+    .popup {
+        right: 0;
+    }
+    .pg5{
+        width: 100%;
+        height: 1535px;
+    }
+    .blog1, .blog2, .blog3 {
+        width: 60%; 
+        margin-left: 120px;
+    }
+    .blog1{
+        margin-left: 120px;
+    }
+    .blogtext{
+        height: 80px;
+    }   
+}
+/* blog ends */

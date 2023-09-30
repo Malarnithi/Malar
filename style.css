@@ -866,7 +866,6 @@ body {
     display: flex;
     overflow: hidden;
 }
-
 .card {
     flex: 0 0 auto;
     width: 300px;
@@ -879,16 +878,79 @@ body {
     justify-content: center;
     text-align: center;
 }
-
 .card img {
     max-width: 100%;
     max-height: 100%;
 }
-
 .card p {
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
 }
+.pg4{
+    width:100%;
+    height:800px;
+    background-color: #19467e;
+    border: dotted;
+    border-color: #19467e;
+}
+.pccar{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+.pchead{
+    width: 100%;
+    height: 60px;
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 85px;
+}
+.pctext{
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.pccard{
+    margin-top: 40px;
+}
+.card{
+    width: 92%;
+}
+.card-img-top{
+    height: 215px;
+}
+.card-body{
+    height: 190px;
+}
+.card-title{
+    margin-top: 40px;
+    font-size: 35px;
+}
+.card-text {
+    font-weight: normal !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 60px;
+    position: absolute;
+    background: none;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background: url(images/NS_PNG/Group\ 1000006003.png) center no-repeat;
+    background-size: cover;
+}
 
-
+.carousel-control-next-icon {
+    background: url(images/NS_PNG/Group\ 1000006004.png) center no-repeat;
+    background-size: contain;
+}

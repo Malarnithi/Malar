@@ -40,3 +40,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.querySelector(".carousel");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    let currentIndex = 0;
+
+    prevBtn.addEventListener("click", () => {
+        currentIndex = (currentIndex - 1 + 3) % 3;
+        updateCarousel();
+    });
+
+    nextBtn.addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % 3;
+        updateCarousel();
+    });
+
+    function updateCarousel() {
+        const translateXValue = -currentIndex * 320; // Adjust the card width
+        carousel.style.transform = `translateX(${translateXValue}px)`;
+    }
+});
+

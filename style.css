@@ -895,22 +895,22 @@ body {
     border-color: #19467e;
 }
 .pccar{
-    width: 80%;
+    width: 100%;
     height: 800px;
-    margin: auto;
 }
 .pchead{
-    width: 100%;
+    width: 80%;
     height: 60px;
     font-size: 54px;
     font-weight: 500;
     text-align: center;
     letter-spacing: 2px;
     color: white;
-    margin-top: 85px;
+    margin: auto;
+    margin-top: 65px;
 }
 .pctext{
-    width: 100%;
+    width: 80%;
     height: 60px;
     color: white;
     font-size: 20px;
@@ -918,8 +918,12 @@ body {
     text-align: center;
     word-spacing: 3px;
     line-height: 30px;
+    margin: auto;
+    margin-top: 40px;
 }
 .pccard{
+    width: 80%;
+    margin: auto;
     margin-top: 40px;
 }
 .card{
@@ -938,19 +942,25 @@ body {
 .card-text {
     font-weight: normal !important;
 }
-.carousel-control-prev,
-.carousel-control-next {
-    width: 60px;
-    position: absolute;
-    background: none;
+.carousel-control-prev, .carousel-control-next {
+    width: 40px !important;
+    height: 500px !important;
+     
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-next {
+    justify-content: right !important;
+}
+.carousel-control-prev {
+    justify-content: left !important;
+}
+.carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
     background: url(images/NS_PNG/Group\ 1000006003.png) center no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .carousel-control-next-icon {
     background: url(images/NS_PNG/Group\ 1000006004.png) center no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
 }

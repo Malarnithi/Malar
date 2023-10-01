@@ -928,21 +928,26 @@
         padding-top: 30px;
         line-height: 35px;
     }
-    .carousel-control-prev {
+    #testCarousel .carousel-control-prev {
         top: 50%;
-        transform: translateY(80%);
+        transform: translateY(120%);
     }
-    .carousel-control-next {
+    
+    #testCarousel .carousel-control-next {
         top: 50%;
-        transform: translateY(80%);
+        transform: translateY(120%);
     }
-.carousel-control-next {
-    margin-right: -30px; 
-}
-.carousel-control-prev{
-    margin-left: 360px;
-}
-.carousel-control-prev,
-.carousel-control-next {
-    opacity: 1 !important;
-}
+    
+    #testCarousel .carousel-control-next {
+        margin-right: -30px;
+    }
+    
+    #testCarousel .carousel-control-prev {
+        margin-left: 360px;
+    }
+    
+    #testCarousel .carousel-control-prev,
+    #testCarousel .carousel-control-next {
+        opacity: 1 !important;
+    }
+    

@@ -38,15 +38,6 @@
     margin-top: 40px;
     padding-left: 12px;
 }
-.card{
-    width: 92%;
-}
-.card-img-top{
-    height: 215px;
-}
-.card-body{
-    height: 190px;
-}
 .card-title{
     margin-top: 40px;
     font-size: 35px;
@@ -56,13 +47,15 @@
 }
 .card {
     width: 350px;
-    height: 300px;
+    height: 400px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: dotted;
+    color: black !important;
 }
 .card img {
     max-width: 100%;
@@ -79,6 +72,7 @@
     color: white;
     border-radius: 20px;
 }
+
 #carouselExample2 .carousel-control-prev,
 #carouselExample2 .carousel-control-next {
     color: white;
@@ -90,26 +84,31 @@
     padding-top: 100px;
     opacity: 1 !important;
 }
-.carousel-caption {
+
+#carouselExample2 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
 }
-.carousel-caption h5 {
+
+#carouselExample2 .carousel-caption h5 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 5px;
 }
-.carousel-caption p {
+
+#carouselExample2 .carousel-caption p {
     font-size: 18px;
     margin-bottom: 0;
 }
-.carousel-control-image {
+
+#carouselExample2 .carousel-control-image {
     width: 80px; 
     height: 80px; 
     background-size: cover;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+
+#carouselExample2 .carousel-control-prev-icon,
+#carouselExample2 .carousel-control-next-icon {
     display: none;
 }

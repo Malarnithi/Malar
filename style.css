@@ -866,34 +866,24 @@
     .testbox{
         width:50%;
         height: 350px;
-        margin-top: 250px;
+        margin-top: 220px;
         margin-left: 330px;
     }
     .testhead1{
-        font-size: 50px;
+        font-size: 60px;
         color: #19467e;
     }
     .testhead2{
-        font-size: 50px;
+        font-size: 54px;
         color: #f27330;
         font-weight: 600;
-        margin-top: 10px;
-        line-height: 55px;
+        margin-top: 0px;
+        line-height: 60px;
     }
     .testcnt{
         font-size: 20px;
         line-height: 35px;
-        margin-top: 15px;
-    }
-    .carousel{
-        width:115%;
-        height: 520px;
-        margin-top: 130px;
-        position: absolute;
-        left: 150px;
-        border-radius: 20px;
-        background-color: #19467e;
-        color: white;
+        margin-top: 45px;
     }
     .testcar{
         width:35%;
@@ -921,6 +911,7 @@
         width: 85%;
         height: 110px;
         margin-left: 30px;
+        margin-top: 25px;
     }
     .tcntimg{
         width: 25%;
@@ -934,165 +925,24 @@
         height: 85px;
         float: left;
         margin-left: 25px;
-        padding-top: 20px;
+        padding-top: 30px;
         line-height: 35px;
     }
-    #carouselExample1 .carousel-control-prev,
-    #carouselExample1 .carousel-control-next {
-        position: absolute !important;
-        top: 500px !important;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        text-align: center;
-        font-size: 20px;
-        line-height: 40px;
-        transition: background-color 0.3s ease;
-        background-color: #000;
-        opacity: 1 !important;
+    .carousel-control-prev {
+        top: 50%;
+        transform: translateY(80%);
     }
-    button.carousel-control-prev {
-        transform: translateX(1200%); 
+    .carousel-control-next {
+        top: 50%;
+        transform: translateY(80%);
     }
-    #carouselExample1 .carousel-control-next {
-        transform: translateX(-2100%); 
-    }
-    button.custom-prev-icon::before {
-        content: url(images/NS_PNG/Group\ 1000006003.png); 
-    }
-    button.custom-next-icon::before {
-        content: url(images/NS_PNG/Group\ 1000006004.png); 
-    }
-    button.carousel-control-prev,
-    button.carousel-control-next {
-        background: none; 
-        width: 40px; 
-        height: 40px;
-    }
-
-#carouselExample2 {
-    width: 100%;
-    height: 520px;
-    margin-top: 50px;
-    left: 0px;
-    border-radius: 20px;
-    background-color: #19467e;
-    color: white;
+.carousel-control-next {
+    margin-right: -30px; 
 }
-#carouselExample2 .carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+.carousel-control-prev{
+    margin-left: 360px;
 }
-button.carousel-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    outline: none;
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important;
 }
-#carouselExample2.carousel {
-    display: flex;
-    overflow: hidden;
-}
-.card {
-    flex: 0 0 auto;
-    width: 300px;
-    height: 300px;
-    background-color: #f0f0f0;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-.card p {
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.pg4{
-    width:100%;
-    height:800px;
-    background-color: #19467e;
-    border: dotted;
-    border-color: #19467e;
-}
-.pccar{
-    width: 100%;
-    height: 800px;
-}
-.pchead{
-    width: 80%;
-    height: 60px;
-    font-size: 54px;
-    font-weight: 500;
-    text-align: center;
-    letter-spacing: 2px;
-    color: white;
-    margin: auto;
-    margin-top: 65px;
-}
-.pctext{
-    width: 80%;
-    height: 60px;
-    color: white;
-    font-size: 20px;
-    margin-top: 40px;
-    text-align: center;
-    word-spacing: 3px;
-    line-height: 30px;
-    margin: auto;
-    margin-top: 40px;
-}
-.pccard{
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-}
-.card{
-    width: 92%;
-}
-.card-img-top{
-    height: 215px;
-}
-.card-body{
-    height: 190px;
-}
-.card-title{
-    margin-top: 40px;
-    font-size: 35px;
-}
-.card-text {
-    font-weight: normal !important;
-}
-#carouselExample2 .carousel-control-prev, #carouselExample2 .carousel-control-next {
-    width: 40px !important;
-    height: 500px !important;
-}
-#carouselExample2 .carousel-control-next {
-    justify-content: right !important;
-}
-#carouselExample2 .carousel-control-prev {
-    justify-content: left !important;
-}
-#carouselExample2 .carousel-control-prev-icon {
-    width: 20px;
-    height: 20px;
-    background: url(images/NS_PNG/Group\ 1000006003.png) center no-repeat;
-    background-size: 100% 100%;
-}
-#carouselExample2 .carousel-control-next-icon {
-    background: url(images/NS_PNG/Group\ 1000006004.png) center no-repeat;
-    background-size: 100% 100%;
-}
-
-
-

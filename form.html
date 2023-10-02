@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="sidebarright">
+        <div class="form">
+            <button id="openForm" class="vertical-align">
+                <span>Quick Enquiry</span>
+            </button>
+            <div id="enquiryForm" class="popup">
+                <div class="popup-content">
+                    <span id="closeForm" class="close">&times;</span>
+                    <form action="#" method="post">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="number">Mobile Number*</label>
+                        <input type="number" id="number" name="number" required>
+                        <label for="message">What Course you are looking for</label>
+                        <input type="text" id="course" name="course" required>
+                        <input type="submit" value="Request a Call Back">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

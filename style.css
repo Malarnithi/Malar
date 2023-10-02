@@ -2,6 +2,7 @@
         width:100%;
         height: 980px;
         font-family: sans-serif;
+        position: relative;
     }
     .sidebar{
         width:8%;
@@ -422,6 +423,35 @@
         background-image: url(images/NS_PNG/Group\ 1000006176.png);
         background-size: 100% 100%;
     }
+.coursetop .fsd,
+.coursetop .fd,
+.coursebtm .pd,
+.coursebtm .dm {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.coursetop .fsd {
+  animation: fade-in 0.5s ease-in-out forwards 0.5s; 
+}
+.coursetop .fd {
+  animation: fade-in 0.5s ease-in-out forwards 1s; 
+}
+.coursebtm .pd {
+  animation: fade-in 0.5s ease-in-out forwards 1.5s; 
+}
+.coursebtm .dm {
+  animation: fade-in 0.5s ease-in-out forwards 2s; 
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: Add a vertical slide effect */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
     .courseblu{
         width:100%;
         height:620px;

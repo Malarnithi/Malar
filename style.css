@@ -3,6 +3,7 @@
     padding-right: 0 !important;
     overflow: hidden;
 }    
+/* home page starts */
 .page1{
         width:100%;
         height: 980px;
@@ -309,6 +310,8 @@
         background-image: url(images/brand\ logo.jpg);
         background-size: 100% 100%;
     }
+    /* home page ends */
+    /* contact page starts */
     .pg3{
         width:100%;
         height: 1240px;
@@ -531,6 +534,8 @@
         color: #19467e;
         line-height: 35px;
     }
+    /* contact page ends */
+    /* nschool page starts */
     .page{
         width:100%;
         height: 1040px;
@@ -650,7 +655,8 @@
     .testimonial{
         width:100%
     }
-    /*blog page css*/
+    /* nschool page ends */
+    /*blog page starts*/
     .pg5{
         width: 100%;
         height: 750px;
@@ -751,6 +757,7 @@
         left: 325px; 
         bottom: 18px;
     }
+    /* blog page ends */
     /* contact starts */
     .pg6{
         width:100%;
@@ -867,6 +874,7 @@
         text-align: right;
         color: white;
     }
+    /* contact page ends */
     @media (max-width: 768px) {
         .popup {
             right: 0;
@@ -968,6 +976,8 @@
     body {
         font-family: Arial, sans-serif;
     }
+    /* faq page ends */
+    /* testimonial page starts */
     .pg8{
         width: 100%;
         height: 910px;
@@ -1090,4 +1100,4 @@
     #testCarousel .carousel-control-next {
         opacity: 1 !important;
     }
-    
+    /* testimonial page ends */

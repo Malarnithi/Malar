@@ -44,7 +44,7 @@
         height: 50px;
         margin: auto;
         border-bottom: 2px solid;
-        color: grey;
+        color: #333333;
         float: left;
     }
     .social{
@@ -66,6 +66,7 @@
         margin-left: 550px;
         margin-top: 10px;
         border-right: solid;
+        color: #333333;
     }
     .whatsapp{
         float: right;
@@ -112,7 +113,7 @@
     .content{
         width: 100%;
         height: 450px;
-        color: rgb(77, 76, 76);
+        color: #474747;
         margin-top: 110px;
     }
     .text{

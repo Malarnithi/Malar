@@ -4,538 +4,525 @@
     overflow: hidden;
 }    
 /* home page starts */
-.page1{
-        width:100%;
-        height: 980px;
-        font-family: sans-serif;
-
+.home-section{
+    width:100%;
+    height: 980px;
+    font-family: sans-serif;
+}
+.left-sidebar{
+    width:8%;
+    height: 400px;
+    float: left;
+    margin-top: 240px;
+    background-image: url(images/NS_PNG/Mask\ group-1.png);
+    background-size: 100% 100%;
+}
+.main-content{
+    width:80%;
+    height: 850px;
+    float: left;
+    margin-left: 2%;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-bottom: 2px solid #b0b0b0 ;
+    float: left;
+}
+.social-icons{
+    word-spacing: 15px;
+    padding-top: 10px;
+    float: left;
+    background-color: white;
+}
+.social-icons a {
+    text-decoration: none;
+    color:  #828282;
+}
+.my-icon {
+    fill: #828282;
+    transition: fill 0.3s; 
+}
+.my-icon:hover {
+    fill: #f27330; 
+    text-decoration: none;
+}
+.social-icons a:hover {
+    text-decoration: none;
+    color:  #f27330;
+}
+.mail{
+    width: 17.5%;
+    float: left;
+    margin-left: 550px;
+    margin-top: 10px;
+    border-right: solid;
+    color: #828282;
+}
+.whatsapp{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #828282;
+}
+.line{
+    width: 5%;
+    border-left: solid #b0b0b0;
+    padding-left: 20px;
+}
+.menu-bar{
+    width:100%;
+    height: 65px;
+    margin: auto;
+}
+.logo{
+    width: 10%;
+    height: 65px;
+    float: left;
+}
+.menu{
+    width: 38%;
+    height: 65px;
+    float: right;
+    margin-top: 10px;
+    word-spacing: 40px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 400px;
+}
+.menu-links {
+    color: #828282; /* Initial text color */
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+/* Define the hover effect */
+.menu-links:hover {
+    color: #f27330; /* Text color on hover */
+    text-decoration: none;
+}
+.content{
+    width: 100%;
+    height: 450px;
+    color: #828282;
+    margin-top: 110px;
+}
+.home-content{
+    width: 100%;
+    height: 500px;
+    margin: auto; 
+}
+.text{
+    float: left;
+    width: 42%;
+    height: 350px;
+}
+.main-heading{
+    font-size: 45px;
+    word-spacing: 5px;
+}
+.brand-name{
+    font-weight: 700;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+/* Apply the animation to the .text-animation class */
+.brand-name-animation{
+    display: inline-block;
+    animation: textAnimation 3s infinite; /* Adjust the duration and timing as needed */
+}
+@keyframes textAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 0;
     }
-    .sidebar{
-        width:8%;
-        height: 400px;
-        float: left;
-        margin-top: 240px;
-        background-image: url(images/NS_PNG/Mask\ group-1.png);
-        background-size: 100% 100%;
-    }
-    .mainpage{
-        width:80%;
-        height: 850px;
-        float: left;
-        margin-left: 2%;
-    }
-    .sidebarright{
-        width:8%;
-        height: 400px;
-        margin-top: 200px;
-        float: right;
-    }
-    .sideimg2{
-        width:14%;
-        height: 460px;
-        margin-top: 400px;
-        background-image: url(images/NS_PNG/Vector-1.png);
-        right: 0;
-        position: absolute;
-        background-size: cover;
-    }
-    .header{
-        width: 100%;
-        height: 50px;
-        margin: auto;
-        border-bottom: 2px solid;
-        color: #333333;
-        float: left;
-    }
-    .social{
-        word-spacing: 15px;
-        padding-top: 10px;
-        float: left;
-        background-color: white;
-    }
-    .social a {
-        text-decoration: none;
-        color:  gray;
-    }
-    .bi bi-facebook{
-        background-color: white;
-    }
-    .mail{
-        width: 17.5%;
-        float: left;
-        margin-left: 550px;
-        margin-top: 10px;
-        border-right: solid;
-        color: #333333;
-    }
-    .whatsapp{
-        float: right;
-        margin-right: 10px;
-        margin-top: 10px;
-    }
-    .my-icon {
-        fill: gray;
-        transition: fill 0.3s; 
-    }
-    .my-icon:hover {
-        fill: #f27330; 
-        text-decoration: none;
-    }
-    .social a:hover {
-        text-decoration: none;
-        color:  #f27330;
-    }
-    .line{
-        width: 5%;
-        border-left: solid gray;
-        padding-left: 20px;
-    }
-    .menubar{
-        width:100%;
-        height: 65px;
-        margin: auto;
-    }
-    .logo{
-        width: 10%;
-        height: 65px;
-        float: left;
-    }
-    .menu{
-        width: 38%;
-        height: 65px;
-        float: right;
-        margin-top: 10px;
-        word-spacing: 40px;
-        font-size: 18px;
-        padding-top: 10px;
-        margin-left: 400px;
-    }
-    .content{
-        width: 100%;
-        height: 450px;
-        color: #474747;
-        margin-top: 110px;
-    }
-    .text{
-        float: left;
-        width: 42%;
-        height: 350px;
-    }
-    @keyframes textAnimation {
-        0% {
-            transform: scale(1);
-            opacity: 0;
-        }
-        50% {
-            transform: scale(1.2);
-            opacity: 1;
-        }
-        100% {
-            transform: scale(1);
-            opacity: 0;
-        }
-    }
-
-    /* Apply the animation to the .text-animation class */
-    .text-animation {
-        display: inline-block;
-        animation: textAnimation 3s infinite; /* Adjust the duration and timing as needed */
-    }
-    .text1 {
-        color: grey; /* Initial text color */
-        text-decoration: none;
-        transition: color 0.3s; /* Add a smooth transition effect */
-    }
-
-    /* Define the hover effect */
-    .text1:hover {
-        color: #f27330; /* Text color on hover */
-        text-decoration: none;
-    }
-    .bold{
-        font-weight: 700;
-        padding-left: 30px;
-        margin-top: 20px;
-    }
-    .text2{
-        font-weight: 600;
-        margin-top: 30px;
-        font-size: 18px;
-        word-spacing: 3px;
-    }
-    .hmtext{
-        font-size: 45px;
-        word-spacing: 5px;
-    }
-    .popup {
-        display: none;
-        position: absolute;
-        top: 50;
-        right: -350px; /* Adjust the distance from the right side */
-        width: 400px;
-        height: 400px;
-        background-color: white;
-        box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
-        overflow-x: hidden;
-        transition: 0.3s;
-    }
-    .popup-content {
-        padding: 20px;
-    }
-
-    /* Close button styles */
-    .close {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 25px;
-        cursor: pointer;
-    }
-    .image{
-        width: 52%;
-        height: 350px;
-        float: left;
-        background-image: url(images/NS_PNG/Mask\ group.png);
-        background-size: 100% 100%;
-        margin-left: 40px;
+    50% {
+        transform: scale(1.2);
         opacity: 1;
-        }
-    .image:hover {
-            opacity: 0.7;
-        }
-    .form{
-        margin-left: 130px;
-        display: flex;
-        height: 100px;
     }
-    /* Styles for the form elements */
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+.description{
+    margin-top: 30px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+.cta-button{
+    width: 67%;
+    height: 43px;
+    background-color:  #19467e;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding-top: 3px;
+    margin-top: 30px;
+}
+.image{
+    width: 52%;
+    height: 350px;
+    float: left;
+    background-image: url(images/NS_PNG/Mask\ group.png);
+    background-size: 100% 100%;
+    margin-left: 40px;
+    opacity: 1;
+    }
+.image:hover {
+        opacity: 0.7;
+    }
+.placement-partners{
+    width: 100%;
+    text-align: center;
+}
+.placement-partners-heading{
+    width: 100%;
+    font-size: 45px;
+    font-weight: 500;
+}
+.placement-partners-content{
+    width:100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin-top: 20px;
+    line-height: 35px;
+    color:  #828282;
+}
+.placement-partners-company{
+    width:75%;
+    height: 35px;
+    margin-top: 35px;
+    margin-left: 130px;
+    background-image: url(images/brand\ logo.jpg);
+    background-size: 100% 100%;
+}
+.right-sidebar{
+    width:8%;
+    height: 400px;
+    margin-top: 200px;
+    float: right;
+}
+.enquiry-form{
+    margin-left: 130px;
+    display: flex;
+    height: 100px;
+}
+.popup {
+    display: none;
+    position: absolute;
+    top: 50;
+    right: -350px; /* Adjust the distance from the right side */
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+.popup-content {
+    padding: 20px;
+}
 
-    button{
-        width: 150px;
-        display: grid;
-        height: 40px;
-        justify-content: center;
-    }
-    .vertical-align {
-        position: relative;
-        transform: rotate(-90deg);
-        transform-origin: left bottom;
-        white-space: nowrap;
-    }
-    .vertical-align button{
-        font-size: 18px;
-        color: #333;
-    }
-    label {
-        font-weight: 600;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="number"],
-    textarea {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    input[type="submit"] {
-        background-color:  #19467e;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-left: 90px;
-    }
-
-    /* Button to open the form */
-    #openForm {
-        background-color:  #f27330;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        right: 8px;
-    }
-
-    #openForm:hover {
-        background-color: #19467e;
-    }
-    /* Media query for responsive design */
-    @media (max-width: 768px) {
-        .popup {
-            right: 0;
-        }
-    }
-    .home{
-        width: 100%;
-        height: 500px;
-        margin: auto; 
-    }
-    .hmbtn{
-        width: 67%;
-        height: 43px;
-        background-color:  #19467e;
-        border-radius: 5px;
-        color: white;
-        font-size: 20px;
-        padding-top: 3px;
-        margin-top: 30px;
-    }
-    .placement{
-        width: 100%;
-        text-align: center;
-    }
-    .placecnt{
-        width:100%;
-        font-family: sans-serif;
-        font-size: 18px;
-        word-spacing: 5px;
-        margin-top: 20px;
-        line-height: 35px;
-    }
-    .placehead{
-        width: 100%;
-        font-size: 45px;
-        font-weight: 500;
-    }
-    .placecmpny{
-        width:75%;
-        height: 35px;
-        margin-top: 25px;
-        margin-left: 130px;
-        background-image: url(images/brand\ logo.jpg);
-        background-size: 100% 100%;
-    }
-    /* home page ends */
-    /* contact page starts */
-    .pg3{
-        width:100%;
-        height: 1240px;
-        background-color: #f6fafb;
-    }
-    .courseimg2{
-        position: absolute;
-        width: 10%;
-        height: 140px;
+/* Close button styles */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* Styles for the form elements */
+.enquiry-button {
+    width: 150px;
+    display: grid;
+    height: 40px;
+    justify-content: center;
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    white-space: nowrap;
+}
+.enquiry-button button{
+    font-size: 18px;
+    color: #333;
+}
+label {
+    font-weight: 600;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color:  #19467e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+/* Button to open the form */
+#openForm {
+    background-color:  #f27330;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    right: 8px;
+}
+#openForm:hover {
+    background-color: #19467e;
+}
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .popup {
         right: 0;
-        margin-top: 1020px;
-        background-image: url(images/NS_PNG/Group\ 1000006069.png);
     }
-    .course{
-        width:80%;
-        height: 1170px;
-        font-family: sans-serif;
-        margin-left: 10%;
-    }
-    .courseimg1{
-        width: 7.8%;
-        height: 140px;
-        margin-top: 420px;
-        left: 75px;
-        position: absolute;
-        background-image: url(images/NS_PNG/Mask\ group-2.png);
-    }
-    .chead{
-        width: 100%;
-        height: 150px;
-        text-align: center;
-        padding-top: 80px;
-        font-size: 55px;
-        font-weight: 600;
-    }
-    .cpara{
-        width: 100%;
-        text-align: center;
-        font-size: 19px;
-        word-spacing: 3px;
-        line-height: 30px;
-        margin-top: 40px;
-    }
-    .coursetop{
-        width: 100%;
-        height: 350px;
-        margin-top: 80px;
-        margin-bottom: 60px;
-    }
-    .coursebtm{
-        width: 100%;
-        height: 350px;
-    }
-    .fsd{
-        width: 45%;
-        height: 350px;  
-        float: left;
-        margin-left: 40px;
-        border-radius: 12px;
-        box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
-        background-image: url(images/NS_PNG/Group\ 1000006176.png);
-        background-size: 100% 100%;
-    }
-    .fsdimg, .fdimg, .pdimg, .dmimg {
-        width: 35%;
-        height: 350px;
-        float: left;
-    }
-    .fsdtext, .fdtext, .pdtext, .dmtext {
-        width: 56%;
-        height: 350px;
-        float: left;
-        margin-top: 35px;
-    }
-    .bordered-text {
-        border: 2px solid black; /* You can customize the border width, style, and color */
-        padding: 5px; /* Add padding to the text inside the border (optional) */
-    }
-    .bordered-text{
-        line-height: 50px;
-        word-spacing: 10px;
-        border-radius: 50px;
-        box-sizing: calc();
-        border-color: #639ee6;
-        background-color: #f8faff;
-        box-sizing: border-box;
-        width: calc(40% - 10px); /* Subtract 20 pixels from 50% for padding */
-        padding: 6px;
-    }  
-    .fd{
-        width: 45%;
-        height: 350px;  
-        border-radius: 12px;
-        box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
-        float: right;
-        margin-right: 30px;
-        background-image: url(images/NS_PNG/Group\ 1000006176.png);
-        background-size: 100% 100%;
-    }
-    .pd{
-        width: 45%;
-        height: 350px;
-        border-radius: 12px;
-        box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
-        float: left;
-        margin-left: 40px;
-        background-image: url(images/NS_PNG/Group\ 1000006176.png);
-        background-size: 100% 100%;
-    }
-    .dm{
-        width: 45%;
-        height: 350px;  
-        border-radius: 12px;
-        box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
-        float: right;
-        margin-right: 30px;
-        background-image: url(images/NS_PNG/Group\ 1000006176.png);
-        background-size: 100% 100%;
-    }
+}
+.sideimg2{
+    width:14%;
+    height: 460px;
+    margin-top: 400px;
+    background-image: url(images/NS_PNG/Vector-1.png);
+    right: 0;
+    position: absolute;
+    background-size: cover;
+}
+/* home page ends */
+
+/* contact page starts */
+.courses-section{
+    width:100%;
+    height: 1240px;
+    background-color: #f6fafb;
+}
+.courseimg2{
+    position: absolute;
+    width: 10%;
+    height: 140px;
+    right: 0;
+    margin-top: 1020px;
+    background-image: url(images/NS_PNG/Group\ 1000006069.png);
+}
+.course{
+    width:80%;
+    height: 1170px;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.courseimg1{
+    width: 7.8%;
+    height: 140px;
+    margin-top: 420px;
+    left: 75px;
+    position: absolute;
+    background-image: url(images/NS_PNG/Mask\ group-2.png);
+}
+.chead{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 55px;
+}
+.cpara{
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    word-spacing: 3px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.coursetop{
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.coursebtm{
+    width: 100%;
+    height: 350px;
+}
+.fsd{
+    width: 45%;
+    height: 350px;  
+    float: left;
+    margin-left: 40px;
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
+    background-image: url(images/NS_PNG/Group\ 1000006176.png);
+    background-size: 100% 100%;
+}
+.fsdimg, .fdimg, .pdimg, .dmimg {
+    width: 35%;
+    height: 350px;
+    float: left;
+}
+.fsdtext, .fdtext, .pdtext, .dmtext {
+    width: 56%;
+    height: 350px;
+    float: left;
+    margin-top: 35px;
+}
+.bordered-text {
+    border: 2px solid black; /* You can customize the border width, style, and color */
+    padding: 10px; /* Add padding to the text inside the border (optional) */
+}
+.bordered-text{
+    line-height: 50px;
+    word-spacing: 10px;
+    border-radius: 50px;
+    box-sizing: calc();
+    border-color: #639ee6;
+    background-color: #f8faff;
+    box-sizing: border-box;
+    width: calc(40% - 10px); /* Subtract 20 pixels from 50% for padding */
+    padding: 10px;
+}  
+.fd{
+    width: 45%;
+    height: 350px;  
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
+    float: right;
+    margin-right: 30px;
+    background-image: url(images/NS_PNG/Group\ 1000006176.png);
+    background-size: 100% 100%;
+}
+.pd{
+    width: 45%;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
+    float: left;
+    margin-left: 40px;
+    background-image: url(images/NS_PNG/Group\ 1000006176.png);
+    background-size: 100% 100%;
+}
+.dm{
+    width: 45%;
+    height: 350px;  
+    border-radius: 12px;
+    box-shadow: -2px 0px 5px 0px rgba(154, 154, 154, 0.5);
+    float: right;
+    margin-right: 30px;
+    background-image: url(images/NS_PNG/Group\ 1000006176.png);
+    background-size: 100% 100%;
+}
 .coursetop .fsd,
 .coursetop .fd,
 .coursebtm .pd,
 .coursebtm .dm {
-  opacity: 0;
-  transform: translateY(20px);
+opacity: 0;
+transform: translateY(20px);
 }
 .coursetop .fsd {
-  animation: fade-in 0.5s ease-in-out forwards 0.5s; 
+animation: fade-in 0.5s ease-in-out forwards 0.5s; 
 }
 .coursetop .fd {
-  animation: fade-in 0.5s ease-in-out forwards 1s; 
+animation: fade-in 0.5s ease-in-out forwards 1s; 
 }
 .coursebtm .pd {
-  animation: fade-in 0.5s ease-in-out forwards 1.5s; 
+animation: fade-in 0.5s ease-in-out forwards 1.5s; 
 }
 .coursebtm .dm {
-  animation: fade-in 0.5s ease-in-out forwards 2s; 
+animation: fade-in 0.5s ease-in-out forwards 2s; 
 }
 @keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(20px); /* Optional: Add a vertical slide effect */
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+from {
+opacity: 0;
+transform: translateY(20px); /* Optional: Add a vertical slide effect */
 }
-    .courseblu{
-        width:100%;
-        height:620px;
-        background-color: #19467e; 
-        font-family: sans-serif; 
-        border: dotted;
-        border-color: #19467e;
-    }
-    .cbhead{
-        color: white;
-        text-align: center;
-        font-size: 55px;
-        margin-top: 70px;
-        border: dotted;
-        border-color: #19467e;
-    }
-    .cbtext{
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        margin-top: 5px;
-        line-height: 35px;
-    }
-    .cbbox{
-        width: 80%;
-        height: 250px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    .box1, .box2, .box3, .box4, .box5{
-        width: 16.5%;
-        height: 240px;
-        border-radius: 10px;
-        background-color: white;
-        margin-top: 25px;
-    }
-    .box1 {
-        float: left;
-        margin-right: 4%;
-    }
-    .box2 {
-        float: left;
-        margin-right: 4%;
-    }
-    .box3 {
-        float: left;
-        margin-right: 4%;
-    }
-    .box4 {
-        float: left;
-        margin-right: 4%;
-    }
-    .box5 {
-        width: 17%;
-        float: left;
-    }
-    .b1{
-        width: 100%;
-        height: 80px;
-        color: #f27330 ;
-        font-weight: 700;
-        font-size: 68px;
-        text-align: center;
-        padding-top: 5px;
-    }
-    .b2{
-        width: 100%;
-        height: 60px;
-        text-align: center;
-        margin-top: 75px;
-        font-size: 28px;
-        color: #19467e;
-        line-height: 35px;
-    }
-    /* contact page ends */
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+.courseblu{
+    width:100%;
+    height:620px;
+    background-color: #19467e; 
+    font-family: sans-serif; 
+    border: dotted;
+    border-color: #19467e;
+}
+.cbhead{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 70px;
+    border: dotted;
+    border-color: #19467e;
+}
+.cbtext{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 35px;
+}
+.cbbox{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+.box1, .box2, .box3, .box4, .box5{
+    width: 16.5%;
+    height: 240px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 25px;
+}
+.box1 {
+    float: left;
+    margin-right: 4%;
+}
+.box2 {
+    float: left;
+    margin-right: 4%;
+}
+.box3 {
+    float: left;
+    margin-right: 4%;
+}
+.box4 {
+    float: left;
+    margin-right: 4%;
+}
+.box5 {
+    width: 17%;
+    float: left;
+}
+.b1{
+    width: 100%;
+    height: 80px;
+    color: #f27330 ;
+    font-weight: 700;
+    font-size: 68px;
+    text-align: center;
+    padding-top: 5px;
+}
+.b2{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-top: 75px;
+    font-size: 28px;
+    color: #19467e;
+    line-height: 35px;
+}
+/* contact page ends */
     /* nschool page starts */
     .page{
         width:100%;

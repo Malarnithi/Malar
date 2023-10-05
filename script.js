@@ -40,6 +40,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
+function limitB1Content() {
+    // Get all elements with class "b1"
+    const b1Elements = document.querySelectorAll(".b1");
   
-
+    // Define the maximum count for each element
+    const maxCounts = [12, 25, 50, 10, 1000];
+  
+    // Loop through each element and limit its content
+    b1Elements.forEach((b1Element, index) => {
+      const maxCount = maxCounts[index];
+      const aElement = b1Element.querySelector("a");
+  
+      // Update the content based on the maximum count
+      for (let i = 0; i <= maxCount; i++) {
+        aElement.textContent = i;
+      }
+    });
+  }
+  
+  // Call the function to limit the content
+  limitB1Content();
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown numbers HTML CSS Js</title>
+  <link rel="stylesheet" href="style3.css">
+  <!-- Box icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <div class="cbbox">
+    <div class="container">
+     <a class="text-size"><span class="num" data-val="12">000</span><span style="color: white;">+</span></a> 
+      <span class="text">Years Of Experience</span>
+    </div>
+  </div>
+  <script>
+    let valueDisplays = document.querySelectorAll(".num");
+
+    let interval = 5000;
+
+    valueDisplays.forEach((valueDisplay) => {
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+
+      let duration = Math.floor(interval / endValue);
+
+      let counter = setInterval(function () {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+
+        if (startValue == endValue) {
+          clearInterval(counter);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

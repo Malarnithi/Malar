@@ -219,44 +219,24 @@
         </div>
         <div class="cbbox">
             <div class="box1">
-                <div class="b1">
-                    <a>12+</a>
-                </div>
-                <div class="b2">
-                    <a>Years Of Experience</a>
-                </div>
+                    <a><span class="num" data-val="12">0</span><span style="color:#f27330;font-size: 60px;font-weight: bold;">+</span></a> 
+                    <span class="text">Years Of Experience</span>
             </div>
             <div class="box2">
-                <div class="b1">
-                    <a>25+</a>
-                </div>
-                <div class="b2">
-                    <a>Career <br> Courses</a>
-                </div>
+                <a><span class="num" data-val="25">0</span><span style="color:#f27330;font-size: 60px;font-weight: bold;">+</span></a> 
+                    <span class="text">Career<br> Courses</span>
             </div>
             <div class="box3">
-                <div class="b1">
-                    <a>50+</a>
-                </div>
-                <div class="b2">
-                    <a>Valued <br> Recruiters</a>
-                </div>
+                <a><span class="num" data-val="50">0</span><span style="color:#f27330;font-size: 60px;font-weight: bold;">+</span></a> 
+                    <span class="text">Valued Recruiters</span>
             </div>
             <div class="box4">
-                <div class="b1">
-                    <a>10+</a>
-                </div>
-                <div class="b2">
-                    <a>Certified<br> Trainers</a>
-                </div>
+                <a><span class="num" data-val="10">0</span><span style="color:#f27330;font-size: 60px;font-weight: bold;">+</span></a> 
+                    <span class="text">Certified Trainers</span>
             </div>
             <div class="box5">
-                <div class="b1">
-                    <a>1000+</a>
-                </div>
-                <div class="b2">
-                    <a>Students<br> Certified</a>
-                </div>
+                <a><span class="num" data-val="1000">0</span><span style="color:#f27330;font-size: 60px;font-weight: bold;">+</span></a> 
+                    <span class="text">Students Certified</span>
             </div>
         </div>
     </div>
@@ -715,6 +695,29 @@
                 </div>
             </div>
         </div>
+        <script>
+            let valueDisplays = document.querySelectorAll(".num");
+    
+    valueDisplays.forEach((valueDisplay) => {
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+    
+      // Adjust the duration based on a threshold (e.g., 100)
+      let threshold = 100;
+      let duration = endValue < threshold ? 400 : 20; // Slower below 100, faster above 100
+    
+      let counter = setInterval(function () {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+    
+        if (startValue == endValue) {
+          clearInterval(counter);
+        }
+      }, duration);
+    
+    });
+    
+          </script>
         <!-- contact page ends -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

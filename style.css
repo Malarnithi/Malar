@@ -191,13 +191,57 @@
     color:  #828282;
 }
 .placement-partners-company{
-    width:75%;
+    width:78%;
     height: 35px;
     margin-top: 35px;
     margin-left: 130px;
-    background-image: url(images/brand\ logo.jpg);
-    background-size: 100% 100%;
 }
+#mySlider {
+    background: white;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+}
+
+#mySlider::before,
+#mySlider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+#mySlider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+#mySlider::before {
+    left: 0;
+    top: 0;
+}
+
+#mySlider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+#mySlider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7)); }
+}
+    
 .right-sidebar{
     width:8%;
     height: 400px;

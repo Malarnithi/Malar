@@ -1,79 +1,43 @@
-/* contact page starts */
-.courseblu{
-    width:100%;
-    height:620px;
-    background-color: #19467e; 
-    font-family: sans-serif; 
+/* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 90%;
+    height: 500px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
     border: dotted;
-    border-color: #19467e;
-}
-.cbhead{
-    color: white;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
     text-align: center;
-    font-size: 55px;
-    margin-top: 70px;
-    border: dotted;
-    border-color: #19467e;  
-}
-.cbtext{
-    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
     color: white;
-    font-size: 20px;
-    margin-top: 5px;
-    line-height: 35px;
+  }
+/* Set a fixed width for each slide */
+.gallery-cell {
+    width: 80%; 
+    margin-right: 20px; 
 }
-.cbbox{
-    width: 80%;
-    height: 250px;
-    margin: auto;
-    margin-top: 20px;
-}
-.box1, .box2, .box3, .box4, .box5{
-    width: 16.5%;
-    height: 240px;
-    border-radius: 10px;
-    background-color: white;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: relative;
-}
-span.text
-{
+
+/* Adjust the width of the gallery container to show one full slide and half of the next slide */
+.js-flickity {
     width: 100%;
-    margin-top: 20px;
-  color: #19467e;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
-}
-span.num
-{
-  color: #f27330;
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 75px;
-  margin-left: 40px;
-}
-.box1 {
-    float: left;
-    margin-right: 4%;
-}
-.box2 {
-    float: left;
-    margin-right: 4%;
-}
-.box3 {
-    float: left;
-    margin-right: 4%;
-}
-.box4 {
-    float: left;
-    margin-right: 4%;
-}
-.box5 {
-    width: 18%;
-    float: left;
+    max-width: calc(50% + 5px); /* Maximum width to show one full slide and half of the next slide */
+    margin: 0 auto; /* Center the gallery horizontally */
 }

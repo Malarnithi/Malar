@@ -53,9 +53,9 @@
     color:  #f27330;
 }
 .mail{
-    width: 17.5%;
+    width: 20%;
     float: left;
-    margin-left: 550px;
+    margin-left: 400px;
     margin-top: 10px;
     border-right: solid;
     color: #828282;
@@ -82,14 +82,14 @@
     float: left;
 }
 .menu{
-    width: 38%;
+    width: 42%;
     height: 65px;
     float: right;
     margin-top: 10px;
-    word-spacing: 40px;
-    font-size: 18px;
+    word-spacing: 50px;
+    font-size: 15px;
     padding-top: 10px;
-    margin-left: 400px;
+    margin-left: 380px;
 }
 .menu-links {
     color: #828282; /* Initial text color */
@@ -105,7 +105,7 @@
     width: 100%;
     height: 450px;
     color: #828282;
-    margin-top: 110px;
+    margin-top: 90px;
 }
 .home-content{
     width: 100%;
@@ -114,7 +114,7 @@
 }
 .text{
     float: left;
-    width: 42%;
+    width: 45%;
     height: 350px;
 }
 .main-heading{
@@ -123,15 +123,15 @@
 }
 .brand-name{
     font-weight: 700;
-    padding-left: 30px;
-    margin-top: 20px;
+    padding-left: 0px;
+    margin-top: 6px;
 }
 /* Apply the animation to the .text-animation class */
-.brand-name-animation{
+/* .brand-name-animation{
     display: inline-block;
     animation: textAnimation 3s infinite; /* Adjust the duration and timing as needed */
-}
-@keyframes textAnimation {
+/* } */
+/* @keyframes textAnimation {
     0% {
         transform: scale(1);
         opacity: 0;
@@ -144,25 +144,26 @@
         transform: scale(1);
         opacity: 0;
     }
-}
+}  */
 .description{
     margin-top: 30px;
     font-size: 18px;
     word-spacing: 3px;
 }
 .cta-button{
-    width: 80%;
-    height: 50px;
+    width: 75%;
+    height: 45px;
     background-color:  #19467e;
+    border: none;
     border-radius: 5px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 3px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .image{
-    width: 52%;
-    height: 340px;
+    width: 50%;
+    height: 310px;
     float: left;
     background-image: url(images/NS_PNG/Mask\ group.png);
     background-size: 100% 100%;
@@ -194,7 +195,7 @@
     width:78%;
     height: 35px;
     margin-top: 35px;
-    margin-left: 130px;
+    margin-left: 30px;
 }
 #mySlider {
     background: white;
@@ -202,7 +203,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 960px;
+    width: 1000px;
 }
 
 #mySlider::before,
@@ -322,7 +323,7 @@ input[type="submit"] {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    right: 8px;
+    right: 20px;
 }
 #openForm:hover {
     background-color: #19467e;
@@ -399,7 +400,7 @@ input[type="submit"] {
 }
 .fsd{
     width: 45%;
-    height: 350px;  
+    height: 310px;  
     float: left;
     margin-left: 40px;
     border-radius: 12px;
@@ -409,21 +410,22 @@ input[type="submit"] {
 }
 .fsdimg, .fdimg, .pdimg, .dmimg {
     width: 35%;
-    height: 350px;
+    height: 310px;
     float: left;
 }
 .fsdtext, .fdtext, .pdtext, .dmtext {
     width: 56%;
-    height: 350px;
+    height: 310px;
     float: left;
     margin-top: 35px;
 }
 .bordered-text {
     border: 2px solid black; /* You can customize the border width, style, and color */
-    padding: 10px; /* Add padding to the text inside the border (optional) */
+    padding: 6px; /* Add padding to the text inside the border (optional) */
 }
 .bordered-text{
-    line-height: 50px;
+    font-size: 12px;
+    line-height: 40px;
     word-spacing: 10px;
     border-radius: 50px;
     box-sizing: calc();
@@ -431,11 +433,10 @@ input[type="submit"] {
     background-color: #f8faff;
     box-sizing: border-box;
     width: calc(40% - 10px); /* Subtract 20 pixels from 50% for padding */
-    padding: 10px;
 }  
 .fd{
     width: 45%;
-    height: 350px;  
+    height: 310px;  
     border-radius: 12px;
     box-shadow: -2px 0px 5px 0px rgba(255, 247, 247, 0.5);
     float: right;
@@ -445,7 +446,7 @@ input[type="submit"] {
 }
 .pd{
     width: 45%;
-    height: 350px;
+    height: 310px;
     border-radius: 12px;
     box-shadow: -2px 0px 5px 0px rgba(255, 247, 247, 0.5);
     float: left;
@@ -455,7 +456,7 @@ input[type="submit"] {
 }
 .dm{
     width: 45%;
-    height: 350px;  
+    height: 310px;  
     border-radius: 12px;
     box-shadow: -2px 0px 5px 0px rgba(255, 247, 247, 0.5);
     float: right;

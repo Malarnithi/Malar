@@ -1046,7 +1046,7 @@ span.num
     .testbox{
         width:50%;
         height: 350px;
-        margin-top: 220px;
+        margin-top: 230px;
         margin-left: 330px;
     }
     .testhead1{
@@ -1059,14 +1059,6 @@ span.num
         font-weight: 600;
         margin-top: 0px;
         line-height: 60px;
-    }
-    .testimg1{
-        position: absolute;
-        width: 290px;
-        height: 90px;
-        top: 3980px;
-        left: 530px;
-        background-image: url(images/NS_PNG/Group\ 1000006069.png);
     }
     .testimg2{
         position: absolute;
@@ -1081,6 +1073,73 @@ span.num
         line-height: 35px;
         margin-top: 45px;
         position: relative;
+    }
+    .gallery {
+        top:130px;
+        background: #fffefe;
+      }
+      .gallery-cell {
+        width: 150%;
+        height: 520px;
+        margin-right: 10px;
+        counter-increment: gallery-cell;
+      }
+      .gallery-cell:before {
+        display: block;
+        text-align: center;
+        line-height: 200px;
+        font-size: 80px;
+        color: white;
+      }
+    /* Set a fixed width for each slide */
+    .gallery-cell {
+        width: 76%; 
+        margin-right: 100px;
+        border-radius: 20px; 
+    }
+    
+    /* Adjust the width of the gallery container to show one full slide and half of the next slide */
+    .js-flickity {
+        position: absolute;
+        z-index: 1;
+        width: 150%;
+        border-radius: 20px;
+        margin: 0 auto; /* Center the gallery horizontally */
+    }
+    .flickity-button{
+        top:115% !important;
+    }
+    svg.flickity-button-icon{
+        display: none;
+    }
+    svg.flickity-button-icon{
+        
+    }
+    .flickity-prev-next-button.previous {
+        left:500px !important;
+        opacity: 1;
+        width: 80px;
+        height: 80px;
+        background-image: url(images/NS_PNG/Group\ 1000006003.png);
+        background-color: transparent;
+    }
+    .flickity-prev-next-button.next{
+        right: -20px !important;
+        opacity: 1;
+        width: 80px;
+        height: 80px;
+        background-image: url(images/NS_PNG/Group\ 1000006004.png);
+        background-color: transparent;
+    }
+    .flickity-prev-next-button.previous:hover {
+        opacity: 1;
+        background-image: url(images/NS_PNG/Group\ 1000006003.png);
+        background-color: transparent;
+    }
+    .flickity-prev-next-button.next:hover{
+        opacity: 1;
+        background-image: url(images/NS_PNG/Group\ 1000006004.png);
+        background-color: transparent;
     }
     .testcar{
         width:117%;
@@ -1105,6 +1164,7 @@ span.num
         line-height: 35px;
         word-spacing: 1px;
         letter-spacing: 1px;
+        color: white;
     }
     .tcarcnt{
         width: 85%;
@@ -1126,27 +1186,15 @@ span.num
         margin-left: 25px;
         padding-top: 30px;
         line-height: 35px;
+        color: white;
     }
-    #testCarousel .carousel-control-prev {
-        top: 50%;
-        transform: translateY(120%);
-    }
-    
-    #testCarousel .carousel-control-next {
-        top: 50%;
-        transform: translateY(120%);
-    }
-    
-    #testCarousel .carousel-control-next {
-        margin-right: -30px;
-    }
-    
-    #testCarousel .carousel-control-prev {
-        margin-left: 360px;
-    }
-    
-    #testCarousel .carousel-control-prev,
-    #testCarousel .carousel-control-next {
-        opacity: 1 !important;
+    .testimg1{
+        position: absolute;
+        width: 290px;
+        height: 90px;
+        top: 3978px;
+        left: 530px;
+        background-image: url(images/NS_PNG/Group\ 1000006069.png);
+        overflow: hidden;   
     }
     /* testimonial page ends */

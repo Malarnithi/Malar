@@ -4,35 +4,29 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
   body { font-family: sans-serif; }
-  
   .gallery {
-    background: #EEE;
+    background: #fffefe;
   }
-  
   .gallery-cell {
     width: 90%;
-    height: 500px;
+    height: 520px;
     margin-right: 10px;
     background: #8C8;
     counter-increment: gallery-cell;
-    border: dotted;
   }
-  
-  /* cell number */
   .gallery-cell:before {
     display: block;
     text-align: center;
-    content: counter(gallery-cell);
     line-height: 200px;
     font-size: 80px;
     color: white;
   }
 /* Set a fixed width for each slide */
 .gallery-cell {
-    width: 80%; 
-    margin-right: 20px; 
+    width: 68%; 
+    margin-right: 100px;
+    border-radius: 20px; 
 }
 
 /* Adjust the width of the gallery container to show one full slide and half of the next slide */
@@ -40,4 +34,37 @@
     width: 100%;
     max-width: calc(50% + 5px); /* Maximum width to show one full slide and half of the next slide */
     margin: 0 auto; /* Center the gallery horizontally */
+}
+.tcarimg{
+  height: 110px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.tcarpara{
+  font-size: 18px;
+  margin-left: 30px;
+  line-height: 35px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+.tcarcnt{
+  width: 85%;
+  height: 110px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.tcntimg{
+  width: 25%;
+  height: 110px;
+  float: left;
+  background-image: url(images/NS_PNG/tablet-holing-girl.webp);
+  background-size: 100% 100%;
+}
+.tcnttext{
+  width: 65%;
+  height: 85px;
+  float: left;
+  margin-left: 25px;
+  padding-top: 30px;
+  line-height: 35px;
 }

@@ -698,27 +698,27 @@ margin-left: 40px;
   /* nschool page ends */
  
   /* contact starts */
-  .pg6{
+  .contact-container{
       width:100%;
       height: 480px;
       background-color: #19467e;
       font-family: sans-serif;
   }
-  .contact{
+  .contact-info{
       width: 80%;
       margin-left: 10%;
       height: 478px;
       color: white;
       border-bottom: solid;
   }
-  .cnbox1{
+  .location{
       width: 30%;
       height: 320px;
       float: left;
       margin-top: 50px;
       color: white;
   }
-  .cnbox2{
+  .company-links{
       width: 15%;
       height: 320px;
       float: left;
@@ -726,7 +726,7 @@ margin-left: 40px;
       margin-left: 90px;
       font-size: 19px;
   }
-  .cnbox3{
+  .course-links{
       width: 15%;
       height: 320px;
       float: left;
@@ -734,7 +734,7 @@ margin-left: 40px;
       margin-left: 90px;
       font-size: 19px;
   }
-  .cnbox4{
+  .contact-us-links{
       width: 17%;
       height: 320px;
       float: left;
@@ -746,23 +746,23 @@ margin-left: 40px;
       margin-top: 10px;
       margin-bottom: 35px;
   }
-  a.cnboxhead{
+  a.location-title{
       font-size: 35px;
       font-weight: 400px;
       color: white !important;
   }
-  p.cnboxhead{
+  p.location-title{
       font-size: 35px;
       font-weight: 400px;
   }
   /* page6 ends */
   /* page7 starts */
-  .pg7{
+  .footer-container{
       width: 100%;
       height: 250px;
       background-color: #002655;
   }
-  .contactbtm{
+  .footer-top{
       width: 80%;
       height: 225px;
       margin: auto;
@@ -771,18 +771,18 @@ margin-left: 40px;
       font-family: sans-serif;
       border-color: #002655;
   }
-  .cnbtm1{
+  .company-info{
       width: 100%;
       height: 80px;
       margin-top: 40px;
   }
-  .cnbtmleft{
+  .company-info-left{
       width: 10%;
       height:78px;
       float: left;
       margin-right: 60px;
   }
-  .cnbtmright{    
+  .company-info-right{    
       width: 84%;
       height:80px;
       float: left;
@@ -794,19 +794,19 @@ margin-left: 40px;
       word-spacing: 1px;
       color: white !important;
   }
-  .cnbtm2{
+  .footer-bottom{
       width: 100%;
       height: 40px;
       margin-top: 15px;
       font-size: 19px;
   }
-  .cnbtmlft{
+  .company-policy{
       width: 68%;
       height: 40px;
       float: left;
       word-spacing: 32px;
   }
-  .cnbtmrgt{
+  .copyright{
       width: 31%;
       height: 40px;
       float: left;
@@ -835,16 +835,16 @@ margin-left: 40px;
   }
   /* blog ends */
   /* faq starts */
-  .faq {
+  .faq-container {
       width: 100%;
       height: 880px;
       font-family: sans-serif;
     }
-    .faqcnt {
+    .faq-content {
       width: 80%;
       margin: auto;
     }
-    .faqimg1 {
+    .faq-image-1 {
       position: absolute;
       width: 22%;
       height: 85px;
@@ -854,7 +854,7 @@ margin-left: 40px;
       background-size: 100% 160%;
     }
     
-    .faqimg2 {
+    .faq-image-2 {
       position: absolute;
       width: 160px;
       height: 460px;
@@ -863,7 +863,7 @@ margin-left: 40px;
       background-image: url(images/NS_PNG/Vector-1.png);
     }
     
-    .faqimg {
+    .faq-image-3 {
       width: 46%;
       height: 350px;
       float: left;
@@ -873,7 +873,7 @@ margin-left: 40px;
       margin-left: 10px;
     }
     
-    .faqtext {
+    .faq-text {
       width: 45%;
       float: left;
       margin-top: 100px;
@@ -881,7 +881,7 @@ margin-left: 40px;
       max-height: 750px; /* Set a max-height for scrolling */
       overflow-y: auto; /* Enable vertical scrollbar if content overflows */
     }
-    .faqhead {
+    .faq-header {
       width: 100%;
       height: 50px;
       text-align: left;
@@ -891,7 +891,7 @@ margin-left: 40px;
       margin-bottom: 20px;
     }
     
-    .faqques {
+    .faq-question {
       width: 98%;
       height: auto;
       border-bottom: 2px solid #87a0bc;
@@ -925,7 +925,7 @@ margin-left: 40px;
     }
   /* faq page ends */
    /*blog page starts*/
-   .pg5{
+   .blog-container{
       width: 100%;
       height: 750px;
       background-color: #f6fafb;
@@ -938,7 +938,7 @@ margin-left: 40px;
       font-family: sans-serif;
       background-color: #f6fafb;
   }
-  .bloghead{
+  .blog-header{
       width: 100%;
       height: 50px;
       text-align: center;
@@ -947,7 +947,7 @@ margin-left: 40px;
       font-size: 50px;
       font-weight: bold;
   }
-  .blogtext{
+  .blog-text{
       width: 100%;
       height: 50px;
       text-align: center;
@@ -957,7 +957,7 @@ margin-left: 40px;
       word-spacing: 3px;
       line-height: 30px;
   }
-  .blogcnt{
+  .blog-content{
       width: 100%;
       height: 420px;
       margin-top: 50px;
@@ -978,43 +978,43 @@ margin-left: 40px;
   .blog3{
       float: left;
   }
-  .blogimg{
+  .blog-image{
       width:100%;
       height: 200px;
       border: 2px solid #87a0bc;
   }
-  .b1img, .b2img, .b3img{
+  .blog-img-1, .blog-img-2, .blog-img-3{
       width: 92%;
       height: 170px;
       margin: auto;
       margin-top: 15px;
   }
-  .b1txt, .b2txt, .b3txt{
+  .blog-item-text{
       width: 100%;
       height: 220px;
       border: 2px solid #87a0bc; 
       color: #464646;
   }
-  .b1img{
+  .blog-img-1{
       background-image: url(images/node\ js.jpg);
       background-size: 100% 100%;
   }
-  .b2img{
+  .blog-img-2{
       background-image: url(images/sql.png);
       background-size: 100% 100%;
   }
-  .b3img{
+  .blog-img-3{
       background-image: url(images/reactvsvue.png);
       background-size: 100% 100%;
   }
-  .blogbold{
+  .blog-bold{
       margin-left: 18px;
       font-size: 18px;
       font-weight: 600;
       line-height: 25px;
       word-spacing: 2px;
   }
-  .blogsmall{
+  .blog-small{
       margin-left: 18px;
       font-size: 18px;
       line-height: 30px;

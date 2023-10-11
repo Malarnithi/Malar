@@ -8,7 +8,6 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="style3.css">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -56,27 +55,29 @@
         </div>  
         <!-- Contact information -->
         <div class="mail">
-            <img src="images/gmail_5968534.png" width="26px">
+            <img src="images/gmail_5968534.png" width="20px">
             <a>contact@n-school.com</a>
         </div>
         <div class="whatsapp">    
-            <img src="images/whatsapp_3992601.png" width="26px">
+            <img src="images/whatsapp_3992601.png" width="20px">
             <a>+91 9043 49 49 41</a>
         </div>    
         </div>
          <!-- Logo -->
        <div class="menu-bar">
          <div class="logo">
-            <a style="color: #f17424;font-weight: 600;font-size: 30px;">Nschool</a>
-            <a style="letter-spacing: 5px;font-size: 20px;color: #19467e;">Academy</a>
+            <h2 class="logo-heading">Nschool</h2>
+            <h2 class="logo-subheading">Academy</h2>
          </div>
          <!-- Navigation links -->
          <div class="menu">
-            <a class="menu-links">Home</a>
-            <a class="menu-links">Courses</a>
-            <a class="menu-links">Careers</a>
-            <a class="menu-links">Blog</a>
-            <a class="menu-links">Contact</a>
+            <ul class="menu-list">
+                <li class="menu-item">Home</li>
+                <li class="menu-item">Courses</li>
+                <li class="menu-item">Careers</li>
+                <li class="menu-item">Blog</li>
+                <li class="menu-item">Contact</li>
+            </ul>
          </div>
        </div>   
        <!-- Home content -->
@@ -155,27 +156,28 @@
     </div>
 </div>
 <div class="right-sidebar">
-    <div class="enquiry-form">
-        <button id="openForm" class="enquiry-button">
-            <span>Quick Enquiry</span>
-        </button>      
-        <div id="enquiryForm" class="popup">
+<div class="enquiry-form">
+    <button id="openForm" class="enquiry-button">
+        <span>Quick Enquiry</span>
+    </button>
+    <div id="enquiryForm" class="popup">
         <div class="popup-content">
-        <span id="closeForm" class="close">&times;</span>
-        <form action="#" method="post">
-            <label for="name">Name*</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email*</label>
-            <input type="email" id="email" name="email" required>
-            <label for="number">Mobile Number*</label>
-            <input type="number" id="number" name="number" required>
-            <label for="message">What Course you are looking for</label>
-            <input type="text" id="course" name="course" required>
-            <input type="submit" value="Request a Call Back">
-        </form>
+            <span id="closeForm" class="close">&times;</span>
+            <form action="#" method="post">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+                <label for="number">Mobile Number*</label>
+                <input type="number" id="number" name="number" required>
+                <label for="course">What Course you are looking for</label>
+                <input type="text" id="course" name="course" required>
+                <input type="submit" value="Request a Call Back">
+            </form>
+        </div>
     </div>
-    </div>
-    </div>
+</div>
+
     <div class="sideimg2">
     </div>
 </div>

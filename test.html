@@ -3,84 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider Example</title>
-    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="gallery js-flickity"
-    data-flickity-options='{ "wrapAround": true, "cellAlign": "right", "contain": true, "pageDots": false, "prevNextButtons": true }'>
-    <div class="gallery-cell" style="background-color: #19467e;">
-        <div class="tcarimg">
-            <img src="images/icons8-quote-100.png">
-        </div>
-        <div class="tcarpara">
-            <p>By Injected Humour, Or Randomised Words There<br> Are Many Variations Of Passages Of Lorem Ipsum<br>
-            Available, But The Majority Have Suffered<br> Alteration In Some Form, By Injected Humour, But<br>
-            The Majority Have Suffered</p>
-        </div>
-        <div class="tcarcnt">
-            <div class="tcntimg"></div>
-            <div class="tcnttext">
-                <a style="font-size: 24px;">Cameron Williamson</a><br>
-                <a>UI/UX Designer, Nschool</a>
+    <div class="enquiry-form">
+        <button id="openForm" class="enquiry-button">
+            <span>Quick Enquiry</span>
+        </button>
+        <div id="enquiryForm" class="popup">
+            <div class="popup-content">
+                <span id="closeForm" class="close">&times;</span>
+                <form action="#" method="post">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for "email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="number">Mobile Number*</label>
+                    <input type="number" id="number" name="number" required>
+                    <label for="course">What Course you are looking for</label>
+                    <input type="text" id="course" name="course" required>
+                    <input type="submit" value="Request a Call Back">
+                </form>
             </div>
         </div>
     </div>
-    <div class="gallery-cell" style="background-color: #f27330;">
-        <div class="tcarimg">
-            <img src="images/icons8-quote-100.png">
-        </div>
-        <div class="tcarpara">
-            <p>By Injected Humour, Or Randomised Words There<br> Are Many Variations Of Passages Of Lorem Ipsum<br>
-            Available, But The Majority Have Suffered<br> Alteration In Some Form, By Injected Humour, But<br>
-            The Majority Have Suffered</p>
-        </div>
-        <div class="tcarcnt">
-            <div class="tcntimg"></div>
-            <div class="tcnttext">
-                <a style="font-size: 24px;">Cameron Williamson</a><br>
-                <a>UI/UX Designer, Nschool</a>
-            </div>
-        </div>
-    </div>
-    <div class="gallery-cell" style="background-color: #19467e;">
-        <div class="tcarimg">
-            <img src="images/icons8-quote-100.png">
-        </div>
-        <div class="tcarpara">
-            <p>By Injected Humour, Or Randomised Words There<br> Are Many Variations Of Passages Of Lorem Ipsum<br>
-            Available, But The Majority Have Suffered<br> Alteration In Some Form, By Injected Humour, But<br>
-            The Majority Have Suffered</p>
-        </div>
-        <div class="tcarcnt">
-            <div class="tcntimg"></div>
-            <div class="tcnttext">
-                <a style="font-size: 24px;">Cameron Williamson</a><br>
-                <a>UI/UX Designer, Nschool</a>
-            </div>
-        </div>
-    </div>
-    <div class="gallery-cell" style="background-color: #f27330;">
-        <div class="tcarimg">
-            <img src="images/icons8-quote-100.png">
-        </div>
-        <div class="tcarpara">
-            <p>By Injected Humour, Or Randomised Words There<br> Are Many Variations Of Passages Of Lorem Ipsum<br>
-            Available, But The Majority Have Suffered<br> Alteration In Some Form, By Injected Humour, But<br>
-            The Majority Have Suffered</p>
-        </div>
-        <div class="tcarcnt">
-            <div class="tcntimg"></div>
-            <div class="tcnttext">
-                <a style="font-size: 24px;">Cameron Williamson</a><br>
-                <a>UI/UX Designer, Nschool</a>
-            </div>
-        </div>
-    </div>
-  </div>
-  
 </body>
 </html>

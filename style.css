@@ -2,12 +2,22 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     overflow: hidden;
-}    
+    font-family: 'Open Sans', sans-serif;
+}  
+.primary-color{
+    color: #19467e;
+}  
+.secondary-color{
+    color: #f27330;
+}
+.bold{
+    font-weight: bold;
+}
 /* home page starts */
 .home-section{
     width:100%;
     height: 980px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .left-sidebar{
     width:8%;
@@ -30,27 +40,41 @@
     border-bottom: 2px solid #d2d2d2 ;
     float: left;
 }
+a:hover svg path {
+    stroke: #f27330; /* Change the stroke color to your desired color */
+    color: #f27330;
+}
+.icon-link {
+    text-decoration: none; 
+}
+.icon-link svg path {
+    fill: #616161; 
+    transition: fill 0.3s; 
+}
+
+.icon-link:hover svg path {
+    fill: #f27330;
+}
+
 .social-icons{
     word-spacing: 15px;
     padding-top: 10px;
     float: left;
+    color: #616161;
 }
 .social-icons a {
     text-decoration: none;
-    color:  #828282;
-}
-.my-icon {
-    fill: #828282;
-    transition: fill 0.3s; 
-}
-.my-icon:hover {
-    fill: #f27330; 
-    text-decoration: none;
+    color: #616161;
 }
 .social-icons a:hover {
     text-decoration: none;
-    color:  #f27330;
+    color: #f27330;
 }
+.social-icons a svg {
+    fill:transparent;
+    stroke: transparent;
+ }
+
 .mail{
     width: 20%;
     height: 20px;
@@ -59,7 +83,7 @@
     margin-top: 13px;
     border-right: solid;
     border-width: 2px; 
-    color: #828282;
+    color: #616161;
     font-size: 16px;
     word-spacing: 5px;
     padding-right: 10px;
@@ -68,7 +92,7 @@
     float: right;
     margin-right: 18px;
     margin-top: 13px;
-    color: #828282;
+    color: #616161;
     font-size: 15px;
 }
 .line{
@@ -100,7 +124,7 @@
     text-decoration: none;
 }
 .logo-subheading{
-    letter-spacing: 3.2px;
+    letter-spacing: 2px;
     margin-left: 5px;
     font-size: 20px;
     color: #19467e;
@@ -122,7 +146,7 @@
 .menu-item {
     display: inline;
     font-size: 17px;
-    color: #828282; 
+    color: #616161; 
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -131,78 +155,89 @@
     color: #f27330; /* Text color on hover */
     text-decoration: none;
 }
-.content{
-    width: 100%;
-    height: 450px;
-    color: #828282;
-    margin-top: 90px;
+.fb-icon-hover img {
+    transition: fill 0.3s; /* Smooth transition effect for color change */
+}
+
+.fb-icon-hover:hover img {
+    fill: #f27330; /* Change this to the color you want when hovering */
 }
 .home-content{
     width: 100%;
     height: 500px;
     margin: auto; 
 }
+.content{
+    width: 100%;
+    height: 450px;
+    color: #616161;
+    margin-top: 90px;
+}
+
 .text{
     float: left;
-    width: 45%;
+    width: 48%;
     height: 350px;
+    margin-right: 40px;
 }
 .main-heading{
     font-size: 45px;
-    word-spacing: 5px;
+    word-spacing: 3px;
 }
 .brand-name{
     font-weight: 700;
     padding-left: 0px;
     margin-top: 6px;
 }
-/* Apply the animation to the .text-animation class */
-/* .brand-name-animation{
-    display: inline-block;
-    animation: textAnimation 3s infinite; /* Adjust the duration and timing as needed */
-/* } */
-/* @keyframes textAnimation {
-    0% {
-        transform: scale(1);
-        opacity: 0;
-    }
-    50% {
-        transform: scale(1.2);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}  */
 .description{
     margin-top: 30px;
     font-size: 18px;
     word-spacing: 3px;
 }
-.cta-button{
+.cta-button {
     width: 75%;
     height: 45px;
-    background-color:  #19467e;
+    background-color: #19467e;
     border: none;
     border-radius: 5px;
     color: white;
     font-size: 20px;
     padding-top: 3px;
     margin-top: 20px;
-}
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .cta-button:hover {
+    background-color: #f27330;
+    transform: scale(1.05);
+  }
+  
 .image{
-    width: 50%;
-    height: 310px;
-    float: left;
-    background-image: url(images/NS_PNG/Mask\ group.png);
+    width: 48%;
+    height: 350px;
+    float: right;
+    background-image: url(images/Mask\ group.png);
     background-size: 100% 100%;
-    margin-left: 40px;
     opacity: 1;
+    animation: moveUpDown 8s linear infinite;
     }
-.image:hover {
-        opacity: 0.7;
-    }
+    @keyframes moveUpDown {
+        0% {
+            transform: translateY(0);
+        }
+        25% {
+            transform: translateX(30px);
+        }
+        50% {
+            transform: translateX(-30px);
+        }
+        75% {
+            transform: translateY(-30px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }       
 .placement-partners{
     width: 100%;
     text-align: center;
@@ -214,18 +249,18 @@
 }
 .placement-partners-content{
     width:100%;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     word-spacing: 3px;
     margin-top: 20px;
     line-height: 35px;
-    color:  #828282;
+    color:  #616161;
 }
 .placement-partners-company{
-    width:94%;
+    width:100%;
     height: 105px;
     margin-top: 35px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 #mySlider {
     background: white;
@@ -233,7 +268,8 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 1000px;
+    width: 95%;
+    margin-left: 0px;
 }
 
 #mySlider::before,
@@ -380,6 +416,7 @@ input[type="submit"] {
     width:100%;
     height: 1240px;
     background-color: #f6fafb;
+    color: #616161;
 }
 .course-image-1{
     position: absolute;
@@ -392,7 +429,7 @@ input[type="submit"] {
 .course{
     width:80%;
     height: 1170px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-left: 10%;
 }
 .course-image-2{
@@ -455,6 +492,7 @@ input[type="submit"] {
 }
 .bordered-text{
     font-size: 12px;
+    width: 10px;
     line-height: 40px;
     word-spacing: 10px;
     border-radius: 50px;
@@ -462,7 +500,7 @@ input[type="submit"] {
     border-color: #639ee6;
     background-color: #f8faff;
     box-sizing: border-box;
-    width: calc(40% - 10px); /* Subtract 20 pixels from 50% for padding */
+    width: calc(100%); /* Subtract 20 pixels from 50% for padding */
 }  
 .flutter-development{
     width: 45%;
@@ -528,7 +566,7 @@ input[type="submit"] {
     width:100%;
     height:620px;
     background-color: #19467e; 
-    font-family: sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     border: dotted;
     border-color: #19467e;
 }
@@ -572,13 +610,13 @@ span.text
   text-align: center;
   font-size: 28px;
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 span.num
 {
   color: #f27330;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 75px;
   margin-left: 40px;
 }
@@ -627,7 +665,7 @@ span.num
 .nschool {
     width: 80%;
     height: 1000px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: auto;
     margin-left: 10%;
 }
@@ -732,7 +770,7 @@ span.num
     .testimonials-section{
         width: 100%;
         height: 910px;
-        font-family: sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
     .testimonials-left{
         width: 30%;
@@ -1020,7 +1058,7 @@ span.num
 .faq-container {
     width: 100%;
     height: 880px;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
   .faq-content {
     width: 80%;
@@ -1103,7 +1141,7 @@ span.num
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 /* faq page ends */
  /*blog page starts*/
@@ -1117,7 +1155,7 @@ span.num
     height: 700px;
     float: left;
     margin-left: 10%;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #f6fafb;
 }
 .blog-header{
@@ -1232,7 +1270,7 @@ span.num
     width:100%;
     height: 480px;
     background-color: #19467e;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .contact-info{
     width: 80%;
@@ -1298,7 +1336,7 @@ p.location-title{
     margin: auto;
     border: dotted;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-color: #002655;
 }
 .company-info{

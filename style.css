@@ -303,28 +303,25 @@ a:hover svg path {
     margin-top: 200px;
     float: right;
 }
-.enquiry-form{
-    margin-left: 130px;
+.enquiry-form {
     display: flex;
-    height: 100px;
+    align-items: center;
+    position: absolute;
 }
 .popup {
     display: none;
-    position: absolute;
-    top: 50;
-    right: -350px; /* Adjust the distance from the right side */
+    position:absolute;
     width: 400px;
-    height: 400px;
     background-color: white;
-    box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.5);
-    overflow-x: hidden;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
+    top: 180px; /* Center vertically */
+    left: 0px; /* Center horizontally */
+    transform: translate(-70%, -50%);
 }
 .popup-content {
     padding: 20px;
 }
-
-/* Close button styles */
 .close {
     position: absolute;
     top: 10px;
@@ -332,20 +329,21 @@ a:hover svg path {
     font-size: 25px;
     cursor: pointer;
 }
-/* Styles for the form elements */
 .enquiry-button {
-    width: 150px;
-    display: grid;
     height: 40px;
-    justify-content: center;
-    position: relative;
+    width: 150px;
+    background-color: #f27330;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    white-space: nowrap;
-}
-.enquiry-button button{
-    font-size: 18px;
-    color: #333;
+    top: 92px; 
+    left:108px;
+    
 }
 label {
     font-weight: 600;
@@ -361,26 +359,12 @@ textarea {
     border-radius: 5px;
 }
 input[type="submit"] {
-    background-color:  #19467e;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 90px;
-}
-/* Button to open the form */
-#openForm {
-    background-color:  #f27330;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    right: 20px;
-}
-#openForm:hover {
     background-color: #19467e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 /* Media query for responsive design */
 @media (max-width: 768px) {

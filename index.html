@@ -143,27 +143,66 @@
     </div>
 </div>
 <div class="right-sidebar">
-<div class="enquiry-form">
-    <button id="openForm" class="enquiry-button">
-        <span>Quick Enquiry</span>
-    </button>
-    <div id="enquiryForm" class="popup">
-        <div class="popup-content">
-            <span id="closeForm" class="close">&times;</span>
-            <form action="#" method="post">
-                <label for="name">Name*</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email*</label>
-                <input type="email" id="email" name="email" required>
-                <label for="number">Mobile Number*</label>
-                <input type="number" id="number" name="number" required>
-                <label for="course">What Course you are looking for</label>
-                <input type="text" id="course" name="course" required>
-                <input type="submit" value="Request a Call Back">
-            </form>
+    <div class="enquiry-form">
+        <div id="enquiryForm" class="popup">
+            <div class="popup-content">
+                <span id="closeForm" class="close">&times;</span>
+                <form action="#" method="post">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name "email" required>
+                    <label for="number">Mobile Number*</label>
+                    <input type="number" id="number" name="number" required>
+                    <label for="course">What Course you are looking for</label>
+                    <input type="text" id="course" name="course" required>
+                    <input type="submit" value="Request a Call Back">
+                </form>
+            </div>
         </div>
+        <button class="enquiry-button" id="openFormButton">
+            <span>Quick Enquiry</span>
+        </button>
     </div>
-</div>
+    
+    <script>
+        // Get DOM elements
+        const openFormButton = document.getElementById("openFormButton");
+        const closeFormButton = document.getElementById("closeForm");
+        const enquiryForm = document.getElementById("enquiryForm");
+    
+        // Define the original button position
+        const originalButtonPosition = {
+            left: openFormButton.style.left,
+            top: openFormButton.style.top,
+            position: openFormButton.style.position,
+        };
+    
+        // Function to reset the button position
+        function resetButtonPosition() {
+            openFormButton.style.left = originalButtonPosition.left;
+            openFormButton.style.top = originalButtonPosition.top;
+            openFormButton.style.position = originalButtonPosition.position;
+        }
+    
+        // Toggle the form's display and position when clicking "Quick Enquiry" button
+        openFormButton.addEventListener("click", () => {
+            if (enquiryForm.style.display === "none" || enquiryForm.style.display === "") {
+                enquiryForm.style.display = "block";
+                openFormButton.style.left = "-280px"; // Adjust the position as needed
+            } else {
+                enquiryForm.style.display = "none";
+                resetButtonPosition(); // Reset the button position
+            }
+        });
+    
+        // Event listener for the close button
+        closeFormButton.addEventListener("click", () => {
+            enquiryForm.style.display = "none";
+            resetButtonPosition(); // Reset the button position
+        });
+    </script>
+    
 
     <div class="sideimg2">
     </div>

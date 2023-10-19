@@ -467,9 +467,14 @@ input[type="submit"] {
     background-size: 100% 100%;
 }
 .fsdimg, .fdimg, .pdimg, .dmimg {
-    width: 35%;
-    height: 310px;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 40px;
     float: left;
+    background-color: #FEF1E9;
+    border-radius: 50%;
 }
 .fsdtext, .fdtext, .pdtext, .dmtext {
     width: 56%;
@@ -1220,7 +1225,7 @@ span.num
 }
 .blog-bold{
     margin-left: 18px;
-    font-size: 18px;
+    font-size: 18px;    
     font-weight: 600;
     line-height: 25px;
     word-spacing: 2px;
@@ -1236,7 +1241,14 @@ span.num
     left: 325px; 
     bottom: 18px;
 }
-
+.blog-item-text svg {
+    position: relative; 
+    left: 325px; 
+    bottom: 18px;
+}
+.blog-item-text svg:hover {
+    fill: #f27330 !important;
+  }
 @media (max-width: 768px) {
     .popup {
         right: 0;

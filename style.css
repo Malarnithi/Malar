@@ -62,7 +62,11 @@ a:hover svg path {
     fill:transparent;
     stroke: transparent;
  }
-
+ .mail a,
+ .whatsapp a {
+     text-decoration: none; 
+     color: inherit; 
+ }
 .mail{
     width: 20%;
     height: 20px;
@@ -78,10 +82,15 @@ a:hover svg path {
 }
 .whatsapp{
     float: right;
-    margin-right: 18px;
+    margin-right: 5px;
     margin-top: 13px;
     color: #616161;
     font-size: 15px;
+}
+.mail a:hover,
+.whatsapp a:hover {
+    text-decoration: none; 
+    color: inherit; 
 }
 .line{
     width: 5%;
@@ -137,6 +146,16 @@ a:hover svg path {
     color: #616161; 
     text-decoration: none;
     transition: color 0.3s;
+}
+.menu-item a {
+    text-decoration: none; 
+    color: inherit; 
+    transition: color 0.3s, text-decoration 0.3s; 
+}
+
+.menu-item a:hover {
+    text-decoration: none; 
+    color: inherit; 
 }
 /* Define the hover effect */
 .menu-item:hover {
@@ -1217,6 +1236,7 @@ span.num
     left: 325px; 
     bottom: 18px;
 }
+
 @media (max-width: 768px) {
     .popup {
         right: 0;

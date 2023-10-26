@@ -173,7 +173,20 @@ a:hover svg path {
     width: 100%;
     height: 500px;
     margin: auto; 
+    animation-duration: 5s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 .content{
     width: 100%;
     height: 450px;
@@ -255,7 +268,7 @@ a:hover svg path {
     font-weight: 500;
 }
 .placement-partners-content{
-    width:100%;
+    width:98%;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     word-spacing: 3px;
@@ -483,7 +496,7 @@ input[type="submit"] {
     margin-top: 35px;
 }
 .bordered-text {
-    border: 2px solid black; /* You can customize the border width, style, and color */
+    border: 2px solid; /* You can customize the border width, style, and color */
     padding: 6px; /* Add padding to the text inside the border (optional) */
 }
 .bordered-text{
@@ -669,7 +682,20 @@ span.num
     width: 100%;
     height: 450px;
     margin-top: 80px;
+    animation-duration: 5s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 .nsimg{
     width: 47%;
     height: 370px;
@@ -696,7 +722,7 @@ span.num
     color: #f27330;
 }
 .nspara {
-    font-size: 19px;
+    font-size: 18px;
     color: rgb(84, 84, 84);
     line-height: 30px;
 }
@@ -804,11 +830,11 @@ span.num
         right: 0px;
         background-image: url(images/NS_PNG/Group\ 1000006069.png);
     }
-    .testcnttestimonial-content{
+    .testimonial-content1{
         font-size: 20px;
         line-height: 35px;
         margin-top: 45px;
-        position: relative;
+        margin-left: 0px;
     }
     .gallery {
         top:130px;
@@ -1283,6 +1309,9 @@ span.num
     color: white;
     border-bottom: solid;
 }
+.cnboxhead{
+   font-size: 35px;
+}
 .location{
     width: 30%;
     height: 320px;
@@ -1358,7 +1387,7 @@ p.location-title{
     width: 84%;
     height:80px;
     float: left;
-    font-size: 19px;
+    font-size: 18px;
     word-spacing: 4px;
     line-height: 30px;
 }

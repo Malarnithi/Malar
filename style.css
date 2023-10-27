@@ -344,8 +344,9 @@ a:hover svg path {
     display: none;
     position:absolute;
     width: 400px;
+    height: 400px;
     background-color: white;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     top: 180px; /* Center vertically */
     left: 0px; /* Center horizontally */
@@ -363,19 +364,23 @@ a:hover svg path {
 }
 .enquiry-button {
     height: 40px;
-    width: 150px;
+    width: 250px;
     background-color: #f27330;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     cursor: pointer;
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    top: 92px; 
-    left:108px;
-    
+    top: 190px; 
+    left:120px;
+    font-size: 25px; 
+}
+.enquiry-button:focus, .enquiry-button:active {
+    outline: none;
 }
 label {
     font-weight: 600;
@@ -393,11 +398,37 @@ textarea {
 input[type="submit"] {
     background-color: #19467e;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 80px;
+    margin-top: 10px;
 }
+.dropdown-input {
+    position: relative;
+  }
+
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .dropdown-options li {
+    list-style: none;
+    padding: 5px 10px;
+  }
+
+  .dropdown-options li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
 /* Media query for responsive design */
 @media (max-width: 768px) {
     .popup {
@@ -497,20 +528,33 @@ input[type="submit"] {
 }
 .bordered-text {
     border: 2px solid; /* You can customize the border width, style, and color */
-    padding: 6px; /* Add padding to the text inside the border (optional) */
 }
 .bordered-text{
+    display: inline-block;
     font-size: 12px;
-    width: 10px;
-    line-height: 40px;
-    word-spacing: 10px;
+    width: 85px;
+    height: 25px;
+    line-height: 24px;
     border-radius: 50px;
-    box-sizing: calc();
     border-color: #639ee6;
     background-color: #f8faff;
     box-sizing: border-box;
-    width: calc(100%); /* Subtract 20 pixels from 50% for padding */
-}  
+    text-align: center;
+    margin-bottom: 15px;
+    margin-right: 10px;
+} 
+.xs{
+    width: 75px;
+}
+.l{
+    width: 100px;
+} 
+.xl{
+    width: 120px;
+}
+.xxl{
+    width: 140px;
+}
 .flutter-development{
     width: 45%;
     height: 310px;  
@@ -1114,7 +1158,6 @@ span.num
     background-size: 100% 100%;
     margin-left: 10px;
   }
-  
   .faq-text{
     width: 45%;
     float: left;

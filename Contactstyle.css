@@ -1,0 +1,121 @@
+.container-fluid{
+    height: auto;
+}
+.orange{
+    color: #f27330 !important;
+}
+.blue{
+    color:#19467e !important;
+}
+.header{
+    height: auto;
+}
+.row{
+    width: 80% !important;
+    margin: auto !important;
+    margin-top: 15px !important;
+    padding-bottom: 12px;
+    border-bottom: solid grey;
+}
+.col-1{
+    width: 3% !important;
+    text-align: center;
+}
+.col-2{
+    width: 8% !important;
+    text-align: center;
+    border-left: solid gray;
+    margin-left: 15px;
+    border-left: solid gray;
+}
+.col-5{
+    width: 19% !important;
+    margin-left: 39% !important;
+    word-spacing: 5px;
+}
+.col-6{
+    width: 16% !important;
+    word-spacing: 2px;   
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.menu-bar{
+    width:80%;
+    margin: auto;
+}
+.logo{
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+}
+.logo-heading{
+    color: #f17424;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+.logo-heading:hover {
+    color: #f17424;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+}
+.logo-subheading{
+    letter-spacing: 2px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #19467e;
+    line-height: 8px;
+}
+.menu{
+    float: right;
+    margin-top: 10px;
+    word-spacing: 65px; 
+    padding-top: 10px;
+    margin-right: 0px;
+}
+.menu-list {
+    list-style: none;
+    padding: 0;
+    white-space: nowrap; 
+}
+.menu-item {
+    display: inline;
+    font-size: 17px;
+    color: #616161;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Define the hover effect */
+.menu-item a:hover {
+    color: #f27330 !important;
+    text-decoration: none;
+}
+.contact-details{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.contact-details-left{
+    width: 38%;
+    float: left;
+}
+.bold{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.contact-details-right{
+    width: 60%;
+    float: right;
+    border: dotted;
+}
+.small{
+    font-size: 25px;
+}

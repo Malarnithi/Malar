@@ -40,10 +40,11 @@
     border-bottom: 2px solid #d2d2d2 ;
     float: left;
 }
-a:hover svg path {
-    stroke: #f27330; /* Change the stroke color to your desired color */
+/* Change the stroke color to your desired color */
+/* a:hover svg path {
+    stroke: #f27330; 
     fill: #f27330;
-}
+} */
 .social-icons{
     word-spacing: 15px;
     padding-top: 10px;
@@ -520,6 +521,10 @@ input[type="submit"] {
     background-color: #FEF1E9;
     border-radius: 50%;
 }
+.iconimage{
+    margin-left:15px;
+    margin-top: 18px;
+}
 .fsdtext, .fdtext, .pdtext, .dmtext {
     width: 56%;
     height: 310px;
@@ -533,27 +538,30 @@ input[type="submit"] {
     display: inline-block;
     font-size: 12px;
     width: 85px;
-    height: 25px;
+    height: 28px;
     line-height: 24px;
     border-radius: 50px;
     border-color: #639ee6;
     background-color: #f8faff;
     box-sizing: border-box;
-    text-align: center;
     margin-bottom: 15px;
     margin-right: 10px;
+    text-align: center;
 } 
 .xs{
-    width: 75px;
+    width: 70px;
+}
+.m{
+    width: 100px;
 }
 .l{
-    width: 100px;
+    width: 110px;
 } 
 .xl{
-    width: 120px;
+    width: 130px;
 }
 .xxl{
-    width: 140px;
+    width: 150px;
 }
 .flutter-development{
     width: 45%;
@@ -747,6 +755,10 @@ span.num
     background-image: url(images/NS_PNG/Untitled-1\ 1.png);
     background-size: 100% 100%;
 }
+.img{
+    background-image: url(images/NS_PNG/Vector-2.png);
+    background-size: 100% 100%;
+}
 .nstext{
     width: 44%;
     height: 450px;
@@ -807,9 +819,13 @@ span.num
     animation: revealLines 0.8s ease-in-out;
 }
 .img{
+    width:100px;
+    height: 75px;
     float:left;
     margin-top: 15px;
+    margin-left: -5px;
     filter: hue-rotate(180deg);
+    padding-left: 10px;
 }
 .listtext{
     width: 80%;
@@ -1050,7 +1066,7 @@ span.num
 }
 .card {
     width: 350px;
-    height: 400px;
+    height: 380px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -1064,10 +1080,13 @@ span.num
     max-width: 100%;
     max-height: 100%;
 }
-.card iframe{
+video{
     width: 100%;
-    height: 220px;
+    margin: 0px;
+    height: 195px;
+    border-radius: 5px;
 }
+
 .card p {
     margin-top: 10px;
     font-size: 18px;
@@ -1088,8 +1107,19 @@ span.num
     cursor: pointer;
     outline: none;
     align-items: start !important;
-    padding-top: 100px;
     opacity: 1 !important;
+}
+#carouselExample2 .carousel-control-prev{
+    width: auto;
+    height: 90px;
+    margin-top: 100px;
+    left: 50px;
+}
+#carouselExample2 .carousel-control-next{
+    width: auto;
+    height: 90px;
+    margin-top: 100px;
+    right: 50px;
 }
 
 #carouselExample2 .carousel-caption {
@@ -1097,7 +1127,6 @@ span.num
     padding: 10px;
     border-radius: 10px;
 }
-
 #carouselExample2 .carousel-caption h5 {
     font-size: 24px;
     font-weight: bold;
@@ -1110,8 +1139,8 @@ span.num
 }
 
 #carouselExample2 .carousel-control-image {
-    width: 80px; 
-    height: 80px; 
+    width: 75px; 
+    height: 75px; 
     background-size: cover;
 }
 

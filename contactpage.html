@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Contactstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Contact</h1>
+    <div class="container-fluid">
+        <div class="header">
+        <div class="row">
+            <div class="col-1">                
+                <svg baseProfile="tiny" version="1.2" width="25" height="25" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M18.354 5.624C16.604 3.883 14.466 3 12 3c-2.489 0-4.633.884-6.373 2.625C3.884 7.366 3 9.512 3 12c0 2.465.883 4.603 2.624 6.354C7.365 20.11 9.51 21 12 21c2.467 0 4.605-.89 6.356-2.643C20.111 16.604 21 14.465 21 12c0-2.488-.89-4.634-2.646-6.376zm-1.412 11.319c-1.137 1.139-2.436 1.788-3.942 1.985V14h2v-2h-2v-1.4a.6.6 0 0 1 .601-.6H15V8h-1.397c-.742 0-1.361.273-1.857.822-.496.547-.746 1.215-.746 2.008V12H9v2h2v4.93c-1.522-.195-2.826-.845-3.957-1.984C5.668 15.562 5 13.944 5 12c0-1.966.667-3.588 2.042-4.96C8.412 5.667 10.034 5 12 5c1.945 0 3.562.668 4.945 2.043C18.328 8.415 19 10.037 19 12c0 1.941-.673 3.559-2.058 4.943z" fill="#616161" class="fill-000000"></path></svg>
+            </div>
+            <div class="col-1">
+                <svg viewBox="0 0 600 600" xml:space="preserve" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M251.921.159c-68.418 0-76.997.29-103.867 1.516-26.814 1.224-45.127 5.482-61.152 11.71-16.566 6.438-30.615 15.052-44.62 29.057-14.005 14.005-22.619 28.054-29.057 44.62-6.228 16.024-10.486 34.337-11.71 61.151C.289 175.083 0 183.662 0 252.08c0 68.417.289 76.996 1.515 103.866 1.224 26.814 5.482 45.127 11.71 61.151 6.438 16.566 15.052 30.615 29.057 44.621 14.005 14.005 28.054 22.619 44.62 29.057 16.025 6.227 34.338 10.486 61.152 11.709 26.87 1.226 35.449 1.516 103.867 1.516 68.417 0 76.996-.29 103.866-1.516 26.814-1.223 45.127-5.482 61.151-11.709 16.566-6.438 30.615-15.052 44.621-29.057 14.005-14.006 22.619-28.055 29.057-44.621 6.227-16.024 10.486-34.337 11.709-61.151 1.226-26.87 1.516-35.449 1.516-103.866 0-68.418-.29-76.997-1.516-103.867-1.223-26.814-5.482-45.127-11.709-61.151-6.438-16.566-15.052-30.615-29.057-44.62-14.006-14.005-28.055-22.619-44.621-29.057-16.024-6.228-34.337-10.486-61.151-11.71C328.917.449 320.338.159 251.921.159Zm0 45.392c67.265 0 75.233.256 101.797 1.468 24.562 1.121 37.901 5.225 46.778 8.674 11.759 4.57 20.151 10.03 28.966 18.845 8.816 8.815 14.275 17.208 18.845 28.966 3.45 8.877 7.554 22.216 8.674 46.778 1.212 26.564 1.469 34.532 1.469 101.798 0 67.265-.257 75.233-1.469 101.797-1.12 24.562-5.224 37.901-8.674 46.778-4.57 11.759-10.029 20.151-18.845 28.966-8.815 8.816-17.207 14.275-28.966 18.845-8.877 3.45-22.216 7.554-46.778 8.674-26.56 1.212-34.527 1.469-101.797 1.469-67.271 0-75.237-.257-101.798-1.469-24.562-1.12-37.901-5.224-46.778-8.674-11.759-4.57-20.151-10.029-28.967-18.845-8.815-8.815-14.275-17.207-18.844-28.966-3.45-8.877-7.554-22.216-8.675-46.778-1.212-26.564-1.468-34.532-1.468-101.797 0-67.266.256-75.234 1.468-101.798 1.121-24.562 5.225-37.901 8.675-46.778 4.569-11.758 10.029-20.151 18.844-28.966 8.816-8.815 17.208-14.275 28.967-18.845 8.877-3.449 22.216-7.553 46.778-8.674 26.564-1.212 34.532-1.468 101.798-1.468Z" transform="translate(44 43.838) scale(1.01619)" fill-rule="nonzero" fill="#616161" class="fill-000000"></path><path d="M251.921 336.053c-46.378 0-83.974-37.596-83.974-83.973 0-46.378 37.596-83.974 83.974-83.974 46.377 0 83.973 37.596 83.973 83.974 0 46.377-37.596 83.973-83.973 83.973Zm0-213.338c-71.447 0-129.365 57.918-129.365 129.365 0 71.446 57.918 129.364 129.365 129.364 71.446 0 129.364-57.918 129.364-129.364 0-71.447-57.918-129.365-129.364-129.365ZM416.627 117.604c0 16.696-13.535 30.23-30.231 30.23-16.695 0-30.23-13.534-30.23-30.23 0-16.696 13.535-30.23 30.23-30.23 16.696 0 30.231 13.534 30.231 30.23Z" transform="translate(44 43.838) scale(1.01619)" fill="#616161" fill-rule="nonzero" class="fill-030404"></path></svg>            
+            </div>
+            <div class="col-1">
+                <svg viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="22" height="22" enable-background="new 0 0 512 512"><path d="M182.8 384V212.9h-54.9V384h54.9zm-25.4-197c18.3 0 29.7-13.1 29.7-29.5-.3-16.7-11.4-29.5-29.4-29.5S128 140.8 128 157.5c0 16.4 11.4 29.5 29 29.5h.4zM320.6 209c-29.1 0-41.6 16.4-49.6 27.8V213h-55v171h55v-97.4c0-5 .4-10 1.9-13.5 4-10 13-20.3 28.2-20.3 19.9 0 27.9 15.3 27.9 37.7V384h55v-99.9c0-51.3-27.2-75.1-63.4-75.1z" fill-rule="evenodd" clip-rule="evenodd" fill="#616161" class="fill-000000"></path><path d="M417.2 64H96.8C79.3 64 64 76.6 64 93.9V415c0 17.4 15.3 32.9 32.8 32.9h320.3c17.6 0 30.8-15.6 30.8-32.9V93.9C448 76.6 434.7 64 417.2 64zM414 416H99.1c-1.8 0-3.1-1.4-3.1-3.1V98c0-1.1 1-2 2-2h316c1 0 2 1 2 2v316c0 .9-.9 2-2 2z" fill="#616161" class="fill-000000"></path></svg>           
+            </div>
+            <div class="col-1">
+                <svg viewBox="0 0 512 512" xml:space="preserve" width="20" height="20" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="M265 96c65.3 0 118.7 1.1 168.1 3.3h1.4c23.1 0 42 22 42 49.1v1.1l.1 1.1c2.3 34 3.4 69.3 3.4 104.9.1 35.6-1.1 70.9-3.4 104.9l-.1 1.1v1.1c0 13.8-4.7 26.6-13.4 36.1-7.8 8.6-18 13.4-28.6 13.4h-1.6c-52.9 2.5-108.8 3.8-166.4 3.8h-10.6.1-10.9c-57.8 0-113.7-1.3-166.2-3.7h-1.6c-10.6 0-20.7-4.8-28.5-13.4-8.6-9.5-13.4-22.3-13.4-36.1v-1.1l-.1-1.1c-2.4-34.1-3.5-69.4-3.3-104.7v-.2c-.1-35.3 1-70.5 3.3-104.6l.1-1.1v-1.1c0-27.2 18.8-49.3 41.9-49.3h1.4c49.5-2.3 102.9-3.3 168.2-3.3H265m0-32.2h-18c-57.6 0-114.2.8-169.6 3.3-40.8 0-73.9 36.3-73.9 81.3C1 184.4-.1 220 0 255.7c-.1 35.7.9 71.3 3.4 107 0 45 33.1 81.6 73.9 81.6 54.8 2.6 110.7 3.8 167.8 3.8h21.6c57.1 0 113-1.2 167.9-3.8 40.9 0 74-36.6 74-81.6 2.4-35.7 3.5-71.4 3.4-107.1.1-35.7-1-71.3-3.4-107.1 0-45-33.1-81.1-74-81.1C379.2 64.8 322.7 64 265 64z" fill="#616161" class="fill-000000"></path><path d="M207 353.8V157.4l145 98.2-145 98.2z" fill="#616161" class="fill-000000"></path></svg>           
+            </div>
+            <div class="col-1">
+                <svg viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg"  width="20" height="20"><path d="M1.24 15.5s3.75-.75 4.5-3c0 0-6-2.5-4.5-10.75 0 0 2.76 3.75 7.26 4.5v-1.5a3.75 3.75 0 0 1 7.189-1.5H19l-3 3C16 11.5 15 17 6 17c-3 0-4.76-1.5-4.76-1.5Z" stroke="#616161" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" class="stroke-000000"></path></svg>            
+            </div>
+            <div class="col-2">Careers</div>
+            <div class="col-5">
+                <img src="images/gmail_5968534.png" width="20px">
+                <a href="mailto:contact@n-school.com">contact@n-school.com</a>
+            </div>
+            <div class="col-6">
+                <img src="images/whatsapp_3992601.png" width="20px">
+                <a href="https://wa.me/919043494941">+91 9043 49 49 41</a>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="logo">
+               <h2 class="logo-heading">Nschool</h2>
+               <h2 class="logo-subheading">Academy</h2>
+            </div>
+            <!-- Navigation links -->
+            <div class="menu">
+               <ul class="menu-list">
+                   <li class="menu-item"><a href="home.html">Home</a></li>
+                   <li class="menu-item"><a href="courses.html">Courses</a></li>
+                   <li class="menu-item"><a href="careers.html">Careers</a></li>
+                   <li class="menu-item"><a href="blogpage.html">Blog</a></li>
+                   <li class="menu-item"><a href="contactpage.html">Contact</a></li>
+               </ul>
+           </div>
+          </div> 
+        </div>
+       
+       <div class="contact-details">
+         <div class="contact-details-left">
+            <span class="blue bold">Get in </span> <span class="orange bold">Touch </span>
+            <p>Coimbatore</p>
+            <p>No - 287/3, Standard Towers, Near Fun Republic Mall, Avinashi Main Road, Peelamedu, Coimbatore -641 004</p>
+            <p>Phone Number</p>
+            <p>+91 99 88 77 66 55</p>
+            <p>+91 11 22 33 44 55</p>
+            <p>Gobichettipalayam</p>
+            <p>No - 10/1 1st Floor, Sai Arcades, Pariyur Road, Near Bus Stand,Gobichettipalayam, Pincode - 638 476</p>
+         </div>
+         <div class="contact-details-right">
+            <span class="blue small">Get in </span> <span class="orange small">Touch </span>
+         </div>
+       </div>
+
+
+</div>
 </body>
 </html>

@@ -49,6 +49,7 @@ a{
 }
 .menu-bar{
     width:100%;
+    height: 100px;
     margin: auto;
 }
 .logo{
@@ -98,78 +99,150 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/* Define the hover effect */
 .menu-item a:hover {
     color: #f27330 !important;
     text-decoration: none;
 }
-.contact-details{
-    width: 100%;
-    margin: auto;
-    margin-top: 130px;
-    font-size: 25px;
+.image-container img {
+    transition: 0.3s;
 }
-.contact-details-left{
-    width: 38%;
+.image-container:hover img {
+    content: url("images/icons8-facebook-48-2.png"); 
+}
+.blog-main{
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+}
+.blog-heading{
+    width: 80%;
+    margin: auto;
+}
+.primary-font{
+    font-size: 50px;
+    font-weight: 500;
+}
+.blog-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.secondary-font{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.topics-top, .topics-btm{
+    width:100%;
+    height: 2260px;
+    margin-top: 40px;
+}
+.topics-btm{
+    height: 860px;
+}
+.topic1{
+    width: 80%;
+}
+.topic-outline{
+    width:30%;
+    height: 70px;
+    border:2px solid;
+    border-radius: 50px;
+    padding-top: 4px;
+}
+.topic-heading{
+    width:94%;
+    margin-left:7px;
+    height: 58px;
+    border: solid;
+    border-color: #f27330;
+    background-color: #f27330;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    padding-top: 4px;
+    font-weight: 500;
+    color: white;
+}
+.blog-top, .blog-bottom{
+    width: 100%;
+    margin-top: 30px;
+}
+.blog-left{
+    width: 48%;
+    height: 720px;
     float: left;
 }
-.bold{
-    font-size: 50px;
-    font-weight: 600px;
+.blog-right{
+    width: 48%;
+    height: 720px;
+    float: right; 
 }
-.district{
+.blog-img1, .blog-img2, .blog-img3, .blog-img4, .blog-img5, .blog-img6{
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+}
+.blog-img1{
+    background-image: url(images/blog/devopscloud.png);
+}
+.blog-img2{
+    background-image: url(images/blog/node.jpg);
+}
+.blog-img3{
+    background-image: url(images/blog/linkedin.jpg);
+}
+.blog-img4{
+    background-image: url(images/blog/angular.png);
+}
+.blog-img5{
+    background-image: url(images/blog/ux.png);
+}
+.blog-img6{
+    background-image: url(images/blog/mobdevops.png);
+}
+.blog-text{
+    margin-top: 20px;
+}
+.blog-text-head{
+    font-size: 22px;
     color: black;
-    font-weight: 600;
-    margin-top: 25px;
+    font-weight: 500;
+    word-spacing: 1px;
 }
-.address{
-    font-size: 20px;
+.blog-para{
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
 }
-.contact-details-right{
-    width: 60%;
-    float: right;
-    background-color: #f6fafb;
+.blog-reference{
+    width:100%;
+    margin-top: 20px;
+}
+.blog-ref-img{
+    width: 12%;
+    height: 70px;
+    border-radius: 50px;
+    background-image: url(images/blog/human.jpg);
+    background-size: 100% 100%;
+    float: left;
+}
+.blog-ref-text{
+    width: 50%;
+    height: 70px;
+    float: left;
+    margin-left: 25px;
     padding-top: 15px;
 }
-.small{
-    font-size: 30px !important;
-    font-weight: 600;
+li{
+    display: inline;
 }
-.space{
-    margin-left: 40px;
-}
-.text{
-    font-size: 18px;
-}
-#inputbox.row {
-    width: 92% !important;
-    border-bottom: none;
-    margin-left: 30px !important;
-    margin-right: 40px !important;
-    margin-bottom: 20px !important;
-    margin-top: 20px !important;
-  }
-  .mb-3{
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  .submit{
-    width: 150px;
-    background-color: #19467e;
-    color: white;
-    text-align: center;
-    margin-left: 300px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-  }
-  /* contact starts */
+/* contact starts */
 .contact-container{
     width:100%;
     height: 480px;
     background-color: #19467e;
     font-family: 'Open Sans', sans-serif;
-    /* margin-top: 900px; */
+    margin-top: 2600px;
 }
 .contact-info{
     width: 80%;

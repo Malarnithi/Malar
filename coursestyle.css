@@ -1,5 +1,6 @@
 .container-fluid{
     height: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 .orange{
     color: #f27330 !important;
@@ -7,14 +8,20 @@
 .blue{
     color:#19467e !important;
 }
+.white{
+    color: white;
+}
+.bold{
+    font-weight: 900;
+}
 .content-main{
-    width: 80%;
-    height: 1000px;
+    width: 100%;
     margin: auto;
 }
 .header{
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin: auto;
 }
 .row{
     width: 100% !important;
@@ -34,13 +41,13 @@
     margin-left: 15px;
     border-left: solid gray;
 }
-.col-5{
+.col-5{ 
     width: 19% !important;
-    margin-left: 39% !important;
+    margin-left: 38% !important;
     word-spacing: 5px;
 }
 .col-6{
-    width: 16% !important;
+    width: 18% !important;
     word-spacing: 2px;   
 }
 a{
@@ -49,6 +56,7 @@ a{
 }
 .menu-bar{
     width:100%;
+    height: 100px;
     margin: auto;
 }
 .logo{
@@ -98,15 +106,218 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/* Define the hover effect */
 .menu-item a:hover {
     color: #f27330 !important;
     text-decoration: none;
 }
 .image-container img {
-    transition: 0.3s; /* Add a smooth transition effect */
+    transition: 0.3s;
 }
-
 .image-container:hover img {
-    content: url("images/icons8-facebook-48-2.png"); /* Replace with the URL of the second image */
+    content: url("images/icons8-facebook-48-2.png"); 
+}
+.course-section{
+    width:80%;
+    height: 560px;
+    margin:auto;
+}
+.full-stack-content{
+    width:56%;
+    float:left;
+    margin-top: 10px;
+}
+.full-stack-heading{
+    font-size: 49px;
+    font-weight: 700 !important;
+    line-height: 60px;
+    word-spacing: 2px;
+}
+.full-stack-para{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+.full-stack-timing{
+    width:100%;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+.morning{
+    width: 35%;
+    float:left;
+}
+.afternoon{
+    width: 35%;
+    float: left;
+}
+.evening{
+    width: 34%;
+    float: right;
+}
+.timing{
+    font-size: 28px;
+    font-weight: 700;
+}
+.enquiry-form{
+    width:35%;
+    float: right;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+}
+label {
+    font-weight: 600;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 170px;
+    height: 40px;
+    background-color: #19467e;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dropdown-input {
+    position: relative;
+  }
+
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .dropdown-options li {
+    list-style: none;
+    padding: 5px 10px;
+  }
+
+  .dropdown-options li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .popup {
+        right: 0;
+    }
+}
+.about-course{
+    width:100%;
+    background-color: #F6FAFB;
+    padding-top: 50px;
+}
+.about-course-heading{
+    width:80%;
+    margin: auto;
+    font-size: 45px;
+    font-weight: 600 !important;
+}
+.about-course-para{
+    width:80%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.show-more{
+    width: 180px;
+    height: 50px;
+    background-color: #19467e;
+    color: white;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 600 !important;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 60px;
+}
+.course-highlights{
+    width:100%;
+    background-color: #19467e;
+    color: white;
+}
+.course-highlights-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 120px;
+}
+.course-highlights-heading{
+    width: 100%;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 600 !important;
+    text-align: center;
+}
+.course-highlights-para{
+    width:80%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.course-highlights-list{
+    width: 80%;
+    margin: auto;
+    height: 550px;
+    margin-top: 50px;
+}
+.list-left{
+    width: 48%;
+    height: 400px;
+    float: left;
+}
+.list-right{
+    width: 48%;
+    float: right;
+}
+.list-content{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.list-img{
+    width:14%;
+    height: 80px;
+    background-image: url(images/laptopicon.png);
+    background-size: 100% 100%;
+    float: left;
+}
+.list-text{
+    width:80%;
+    height: 100px;
+    float: right;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    
 }

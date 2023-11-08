@@ -31,23 +31,24 @@
     border-bottom: solid grey;
 }
 .col-1{
-    width: 3% !important;
+    max-width: 3% !important;
     text-align: center;
 }
 .col-2{
-    width: 8% !important;
+    max-width: 8% !important;
+    height: 20px !important;
     text-align: center;
     border-left: solid gray;
     margin-left: 15px;
     border-left: solid gray;
 }
 .col-5{ 
-    width: 19% !important;
-    margin-left: 38% !important;
+    max-width: 20% !important;
+    margin-left: 37% !important;
     word-spacing: 5px;
 }
 .col-6{
-    width: 18% !important;
+    max-width: 18% !important;
     word-spacing: 2px;   
 }
 a{
@@ -487,3 +488,271 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
+
+
+
+/* page 4 starts */
+.pg4{
+    width:100%;
+    height:800px;
+    background-color: #F6FAFB;
+    border: dotted;
+    border-color: #F6FAFB;
+}
+.pccar{
+    width: 100%;
+    height: 800px;
+}
+.pchead{
+    width: 80%;
+    height: 60px;
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    margin: auto;
+    margin-top: 65px;
+}
+.pctext{
+    width: 80%;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 3px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 40px;
+}
+.pccard{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 12px;
+}
+.card-title{
+    margin-top: 40px;
+    font-size: 35px;
+}
+.card-text {
+    font-weight: normal !important;
+}
+.card {
+    width: 350px;
+    height: 380px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: dotted;
+    color: black !important;
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+video{
+    width: 100%;
+    margin: 0px;
+    height: 195px;
+    border-radius: 5px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Styles for the carousel container */
+#carouselExample2 {
+    background-color: #F6FAFB;
+    color: white;
+    border-radius: 20px;
+}
+
+#carouselExample2 .carousel-control-prev,
+#carouselExample2 .carousel-control-next {
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    align-items: start !important;
+    opacity: 1 !important;
+}
+#carouselExample2 .carousel-control-prev{
+    width: auto;
+    height: 90px;
+    margin-top: 100px;
+    left: 50px;
+}
+#carouselExample2 .carousel-control-next{
+    width: auto;
+    height: 90px;
+    margin-top: 100px;
+    right: 50px;
+}
+
+#carouselExample2 .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+#carouselExample2 .carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#carouselExample2 .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#carouselExample2 .carousel-control-image {
+    width: 75px; 
+    height: 75px; 
+    background-size: cover;
+}
+
+#carouselExample2 .carousel-control-prev-icon,
+#carouselExample2 .carousel-control-next-icon {
+    display: none;
+}
+#carouselExample2 .row {
+    border-bottom: none !important;
+}
+/* page4 ends */
+/* contact starts */
+.contact-container{
+    width:100%;
+    background-color: #19467e;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-info{
+    width: 80%;
+    margin-left: 10%;
+    height: 478px;
+    color: white;
+    border-bottom: solid;
+}
+.cnboxhead{
+   font-size: 35px;
+}
+.location{
+    width: 30%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    color: white;
+}
+.company-links{
+    width: 15%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 19px;
+}
+.course-links{
+    width: 15%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 19px;
+}
+.contact-us-links{
+    width: 17%;
+    height: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 19px;
+}
+.cbe{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+a.location-title{
+    font-size: 35px;
+    font-weight: 400px;
+    color: white !important;
+}
+p.location-title{
+    font-size: 35px;
+    font-weight: 400px;
+}
+/* page6 ends */
+/* page7 starts */
+.footer-container{
+    width: 100%;
+    height: 250px;
+    background-color: #002655;
+}
+.footer-top{
+    width: 80%;
+    height: 225px;
+    margin: auto;
+    border: dotted;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #002655;
+}
+.company-info{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+}
+.company-info-left{
+    width: 10%;
+    height:78px;
+    float: left;
+    margin-right: 60px;
+}
+.company-info-right{    
+    width: 84%;
+    height:80px;
+    float: left;
+    font-size: 18px;
+    word-spacing: 3px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.extra-space {
+    word-spacing: 1px;
+    color: white !important;
+}
+.footer-bottom{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+.company-policy{
+    width: 68%;
+    height: 40px;
+    float: left;
+    word-spacing: 32px;
+}
+.copyright{
+    width: 31%;
+    height: 40px;
+    float: left;
+    text-align: right;
+    color: white;
+}
+.white{
+    color: white;
+}
+#pg6text.a{
+    color: white !important;
+}
+* {
+    height: auto;
+  }
+  
+/* contact page ends */

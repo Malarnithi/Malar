@@ -318,6 +318,172 @@ input[type="submit"] {
     float: right;
     padding-top: 25px;
     font-size: 18px;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
+.course-curriculum{
+    width:80%;
+    height: 1800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.course-curriculum-heading{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+.course-curriculum-para{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.course-curriculum-content{
+    margin-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.course-curriculum-left{
+    width:48.5%;
+    float: left;
+    margin-bottom: 50px;
+}
+.course-curriculum-right{
+    width: 48.5%;
+    float: right;
+    margin-bottom: 50px;
+}
+.course-curriculum-week{
+    background-color: #F6FAFB;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.week{
+    width:38%;
+    height: 45px;
+    border: none;
+    background-color: #FFD8BF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding-top: 3px;
+}
+.week-heading {
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.week-content{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.course-fee{
+    width: 100%;
+    background-color: #19467e;
+    padding-top: 60px;
+}
+.course-fee-heading{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+}
+.course-fee-para{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 35px;
+    word-spacing: 3px;
+    padding: 0px 20px;
+}
+.course-fee-content{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.course-fee-beginner, .course-fee-intermediate, .course-fee-expertise {
+    width: 30%;
+    height: 650px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.course-fee-beginner{
+    float: left;
+}
+.course-fee-intermediate{
+    float:left;
+}
+.course-fee-expertise{
+   margin-top: 100px;
+}
+.course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading{
+    position: relative;
+    left: -35px;
+    width: 120%;
+    height: 210px;
+    background-color: #FFD8BF;
+    border-radius: 25px 25px 1000px 1000px;  
+    text-align: center;
+    padding-top: 120px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.course-fee-beginner-content{
+    padding: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.course-fee-text{
+    color: #19467e;
+}
+.course-fee-beginner:hover, .course-fee-intermediate:hover, .course-fee-expertise:hover{
+    transform: translateY(-40px);
+
+    .course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading{
+        background-color:#f27330;
+    }
+    .course-fee-text{
+        color: white;
+    }
+    .get-a-plan{
+        background-color: #f27330;
+        color: white;
+        border-color: #f27330;
+    }
+}
+.course-duration{
+    font-weight: 610;
+    font-size: 25px;
+}
+.course-detailing{
+    text-align: left;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 30px;
+}
+.course-detailing-text{
+    margin-bottom: 18px;
+    font-size: 15.5px;
+}
+.course-time{
+    font-size: 30px;
+    font-weight: 610;
+}
+.get-a-plan{
+    width:60%;
+    height: 45px;
+    background-color: white;
+    color: #19467e;
+    border: solid #19467e;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+

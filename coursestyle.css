@@ -164,7 +164,21 @@ a{
     width: 30%;
     float: right;
     padding-right: 20px;
+    word-spacing: 5px;
 }
+.vertical-line {
+    position: relative;
+  }
+
+  .vertical-line::before {
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 1px;
+    background-color: #f27330; 
+    left: 60px;
+    top: 5px;
+  }
 .full-stack-timing{
     width:100%;
     font-size: 18px;

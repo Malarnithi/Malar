@@ -121,6 +121,7 @@ a{
     width:80%;
     height: 560px;
     margin:auto;
+    margin-bottom: 30px;
 }
 .full-stack-content{
     width:56%;
@@ -128,7 +129,7 @@ a{
     margin-top: 10px;
 }
 .full-stack-heading{
-    font-size: 49px;
+    font-size: 46px;
     font-weight: 700 !important;
     line-height: 60px;
     word-spacing: 2px;
@@ -138,16 +139,42 @@ a{
     margin-top: 20px;
     line-height: 28px;
 }
+.full-stack-detail{
+    height: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+    line-height: 35px;
+}
+.rating{
+    width: 20%;
+    float: left;
+}
+.duration{
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+}
+.language{
+    width: 23%;
+    float: left;
+    padding-left: 20px;
+}
+.learning{
+    width: 30%;
+    float: right;
+    padding-right: 20px;
+}
 .full-stack-timing{
     width:100%;
     font-size: 18px;
     font-weight: 700;
     border: 1px solid;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 .morning{
     width: 35%;
@@ -487,10 +514,183 @@ input[type="submit"] {
     border-radius: 25px;
     margin-top: 10px;
 }
-
-
-
-
+.course-certificate{
+    width:80%;
+    margin: auto;
+}
+.course-certificate-heading{
+    font-size: 45px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.course-certificate-para{
+    width:86%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    word-spacing: 2px;
+    padding-bottom: 50px;
+}
+.course-certificate-sub-heading{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.course-certificate-sub-para{
+    width: 86%;
+    font-size: 18px;
+    word-spacing: 3px;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+.job-opportunity{
+    width:100%;
+    background-color: #F6FAFB;
+    padding-top: 50px;
+}
+.job-opportunity-heading{
+    width:80%;
+    margin: auto;
+    font-size: 45px;
+    font-weight: 600 !important;
+}
+.about-course-para{
+    width:80%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.show-more{
+    width: 180px;
+    height: 50px;
+    background-color: #19467e;
+    color: white;
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 600 !important;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.technology-sack{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+.technology-sack-heading{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.technology-sack-para{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+    word-spacing: 4px;
+    padding-bottom: 50px;
+}
+.grid-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin-bottom: 100px;
+  }
+  .grid-item {
+    height: 140px;
+    border: 3px dashed #ccc;     
+    padding: 20px; 
+    text-align: center;
+  }
+  .grid-item:nth-child(1n) {
+    border-top: none;
+    border-left: none;
+  }
+  .grid-item:nth-child(5n) {
+    border-right: none;
+  }
+  .grid-item:nth-last-child(-n+5) {
+    border-bottom: none;
+  }
+  .brochure{
+    width:100%;
+    background-color: #19467e;
+    padding-top: 50px;
+  }
+  .broucher-heading{
+    width: 80%;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .broucher-para{
+    width:46%;
+    word-spacing: 3px;
+    line-height: 35px;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 7%;
+    float: left;
+  }
+.button-download{
+    width: 400px;
+    height: 90px;
+    background-color: #f27330;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+.faq-section{
+    width:80%;
+    margin: auto;
+    padding-top: 150px;
+}
+.faq-content{
+    border: 1px solid #f27330;
+    background-color: #ffede1;
+    padding: 40px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.faq-heading{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.question{
+    width:90%;
+    font-size: 30px;
+    font-weight: 600;
+    float:left;
+    margin-bottom: 40px;
+}
+.arrow-mark{
+    float: right;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+.arrow-rotate {
+    transform: rotate(180deg); 
+  }
+.answer{
+    width: 88%;
+    font-size: 18px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.answer p{
+    padding-bottom: 30px;
+}
 /* page 4 starts */
 .pg4{
     width:100%;

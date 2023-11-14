@@ -9,7 +9,7 @@
 }
 .content-main{
     width: 80%;
-    height: 1000px;
+    height: 1100px;
     margin: auto;
 }
 .header{
@@ -112,6 +112,7 @@ a{
 .contact-details-left{
     width: 38%;
     float: left;
+    margin-bottom: 40px;
 }
 .bold{
     font-size: 50px;
@@ -163,6 +164,10 @@ a{
     margin-bottom: 30px;
     margin-top: 20px;
   }
+ .map{
+    margin-top: 20px;
+ } 
+
   /* contact starts */
 .contact-container{
     width:100%;

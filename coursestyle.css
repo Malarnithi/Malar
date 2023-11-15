@@ -456,7 +456,6 @@ input[type="submit"] {
     overflow: hidden;
     margin-right: 50px;
 }
-
 .course-fee-beginner{
     float: left;
 }
@@ -558,6 +557,11 @@ input[type="submit"] {
     word-spacing: 3px;
     padding-bottom: 40px;
     line-height: 30px;
+}
+.certificate-image{
+    width:80%;
+    margin: auto;
+    margin-bottom: 40px;
 }
 .job-opportunity{
     width:100%;

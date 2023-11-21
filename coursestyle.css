@@ -426,6 +426,7 @@ input[type="submit"] {
     width: 100%;
     background-color: #19467e;
     padding-top: 60px;
+    position: relative;
 }
 .course-fee-heading{
     width: 80%;
@@ -447,35 +448,52 @@ input[type="submit"] {
     width: 80%;
     margin: auto;
     padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
 }
 .course-fee-beginner, .course-fee-intermediate, .course-fee-expertise {
     width: 30%;
     height: 650px;
     background-color: white;
     border-radius: 25px;
-    overflow: hidden;
     margin-right: 50px;
-}
-.course-fee-beginner{
-    float: left;
-}
-.course-fee-intermediate{
-    float:left;
-}
-.course-fee-expertise{
-   margin-top: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading{
     position: relative;
     left: -35px;
-    width: 120%;
+    width: calc(100% + 70px); 
+    max-width: 120%; 
     height: 210px;
     background-color: #FFD8BF;
-    border-radius: 25px 25px 1000px 1000px;  
+    border-radius: 25px 25px 1000px 1000px;
     text-align: center;
     padding-top: 120px;
     font-size: 35px;
     font-weight: 600;
+}
+.course-fee-beginner{
+    float: left;
+}
+.course-fee-beginner-circle, .course-fee-intermediate-circle, .course-fee-expertise-circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 125px;
+    z-index: 1;
+    background-color: white;
+}
+.course-fee-intermediate-circle{
+    left: 525px;
+}
+.course-fee-expertise-circle{
+    left: 935px;
+}
+.course-fee-intermediate{
+    float:left;
 }
 .course-fee-beginner-content{
     padding: 30px;
@@ -485,21 +503,36 @@ input[type="submit"] {
 .course-fee-text{
     color: #19467e;
 }
-.course-fee-beginner:hover, .course-fee-intermediate:hover, .course-fee-expertise:hover{
+.course-fee-beginner:hover,
+.course-fee-intermediate:hover,
+.course-fee-expertise:hover {
     transform: translateY(-40px);
+    position: relative;
 
-    .course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading{
-        background-color:#f27330;
+    .course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading {
+        background-color: #f27330;
     }
-    .course-fee-text{
+    .course-fee-text {
         color: white;
     }
-    .get-a-plan{
+    .get-a-plan {
         background-color: #f27330;
         color: white;
         border-color: #f27330;
     }
+    .course-fee-beginner-circle, .course-fee-intermediate-circle, .course-fee-expertise-circle {
+        background-color: white;
+        top: -30px;
+        z-index: 1;
+    }
+    .course-fee-intermediate-circle{
+         left:125px;
+    }
+    .course-fee-expertise-circle{
+        left:125px;
+    }
 }
+
 .course-duration{
     font-weight: 610;
     font-size: 25px;

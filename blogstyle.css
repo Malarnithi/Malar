@@ -1,5 +1,6 @@
 .container-fluid{
     height: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 .orange{
     color: #f27330 !important;
@@ -21,27 +22,63 @@
     margin: auto !important;
     margin-top: 15px !important;
     padding-bottom: 12px;
-    border-bottom: solid grey;
+    border-bottom:2px solid rgb(211, 211, 211);
 }
 .col-1{
-    width: 3% !important;
+    width: 22px !important;
+    height: 22px;
     text-align: center;
+    background-size: 100% 100%;
+    margin-right: 12px;
 }
+#facebook{
+    background-image: url(images/icons/facebook-grey.png);
+}
+#facebook:hover{
+    background-image:url(images/icons/facebook-orange.png) ;
+}
+#instagram{
+    background-image: url(images/icons/instagram-grey.png);
+}
+#instagram:hover{
+    background-image: url(images/icons/instagram-orange.png);
+}
+#linkedin{
+   background-image: url(images/icons/linkedin-grey.png);
+}
+#linkedin:hover{
+    background-image: url(images/icons/linkedin-orange.png);
+ }
+ #youtube{
+    background-image: url(images/icons/youtube-grey.png);
+ }
+ #youtube:hover{
+    background-image: url(images/icons/youtube-orange.png);
+ }
+ #twitter{
+    background-image: url(images/icons/twitter-grey.png);
+ }
+ #twitter:hover{
+    background-image: url(images/icons/twitter-oragne.png);
+ }
 .col-2{
     width: 8% !important;
+    height: 20px;
     text-align: center;
-    border-left: solid gray;
-    margin-left: 15px;
-    border-left: solid gray;
+    border-left:2px solid gray;
+}
+.col-2:hover{
+    color: #f27330;
 }
 .col-5{
     width: 19% !important;
-    margin-left: 39% !important;
+    margin-left: 41.5% !important;
     word-spacing: 5px;
 }
 .col-6{
-    width: 16% !important;
-    word-spacing: 2px;   
+    width: 16.4% !important;
+    word-spacing: 2px; 
+    border-left: 2px solid gray; 
 }
 a{
     text-decoration: none !important;
@@ -119,7 +156,7 @@ a{
     margin: auto;
 }
 .primary-font{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 500;
 }
 .blog-content{
@@ -128,16 +165,16 @@ a{
     margin-top: 15px;
 }
 .secondary-font{
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 2px;
 }
 .topics-top, .topics-btm{
     width:100%;
-    height: 2260px;
+    height: 2360px;
     margin-top: 40px;
 }
 .topics-btm{
-    height: 860px;
+    height: 900px;
 }
 .topic1{
     width: 80%;
@@ -165,17 +202,17 @@ a{
 }
 .blog-top, .blog-bottom{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .blog-left{
     width: 48%;
-    height: 720px;
     float: left;
+    padding-top: 40px;
 }
 .blog-right{
     width: 48%;
-    height: 720px;
-    float: right; 
+    float: right;
+    padding-top: 40px; 
 }
 .blog-img1, .blog-img2, .blog-img3, .blog-img4, .blog-img5, .blog-img6{
     width: 100%;
@@ -242,7 +279,7 @@ li{
     height: 480px;
     background-color: #19467e;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 2600px;
+    margin-top: 2700px;
 }
 .contact-info{
     width: 80%;

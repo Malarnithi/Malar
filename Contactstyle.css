@@ -1,5 +1,6 @@
 .container-fluid{
     height: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 .orange{
     color: #f27330 !important;
@@ -21,27 +22,63 @@
     margin: auto !important;
     margin-top: 15px !important;
     padding-bottom: 12px;
-    border-bottom: solid grey;
+    border-bottom:2px solid rgb(211, 211, 211);
 }
 .col-1{
-    width: 3% !important;
+    width: 22px !important;
+    height: 22px;
     text-align: center;
+    background-size: 100% 100%;
+    margin-right: 12px;
 }
+#facebook{
+    background-image: url(images/icons/facebook-grey.png);
+}
+#facebook:hover{
+    background-image:url(images/icons/facebook-orange.png) ;
+}
+#instagram{
+    background-image: url(images/icons/instagram-grey.png);
+}
+#instagram:hover{
+    background-image: url(images/icons/instagram-orange.png);
+}
+#linkedin{
+   background-image: url(images/icons/linkedin-grey.png);
+}
+#linkedin:hover{
+    background-image: url(images/icons/linkedin-orange.png);
+ }
+ #youtube{
+    background-image: url(images/icons/youtube-grey.png);
+ }
+ #youtube:hover{
+    background-image: url(images/icons/youtube-orange.png);
+ }
+ #twitter{
+    background-image: url(images/icons/twitter-grey.png);
+ }
+ #twitter:hover{
+    background-image: url(images/icons/twitter-oragne.png);
+ }
 .col-2{
     width: 8% !important;
+    height: 20px;
     text-align: center;
-    border-left: solid gray;
-    margin-left: 15px;
-    border-left: solid gray;
+    border-left:2px solid gray;
+}
+.col-2:hover{
+    color: #f27330;
 }
 .col-5{
     width: 19% !important;
-    margin-left: 39% !important;
+    margin-left: 41.5% !important;
     word-spacing: 5px;
 }
 .col-6{
-    width: 16% !important;
-    word-spacing: 2px;   
+    width: 16.4% !important;
+    word-spacing: 2px; 
+    border-left: 2px solid gray; 
 }
 a{
     text-decoration: none !important;
@@ -98,7 +135,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/* Define the hover effect */
 .menu-item a:hover {
     color: #f27330 !important;
     text-decoration: none;
@@ -106,13 +142,14 @@ a{
 .contact-details{
     width: 100%;
     margin: auto;
-    margin-top: 130px;
+    margin-top: 110px;
     font-size: 25px;
 }
 .contact-details-left{
-    width: 38%;
+    width: 40%;
     float: left;
     margin-bottom: 40px;
+    margin-right: 20px;
 }
 .bold{
     font-size: 50px;
@@ -124,10 +161,11 @@ a{
     margin-top: 25px;
 }
 .address{
-    font-size: 20px;
+    color: rgb(53, 53, 53);
+    font-size: 18px;
 }
 .contact-details-right{
-    width: 60%;
+    width: 58%;
     float: right;
     background-color: #f6fafb;
     padding-top: 15px;
@@ -140,7 +178,8 @@ a{
     margin-left: 40px;
 }
 .text{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
 }
 #inputbox.row {
     width: 92% !important;
@@ -165,6 +204,7 @@ a{
     margin-top: 20px;
   }
  .map{
+    width: 100%;
     margin-top: 20px;
  } 
 

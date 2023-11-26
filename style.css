@@ -345,9 +345,9 @@
     display: none;
     position:absolute;
     width: 400px;
-    height: 400px;
+    height: 470px;
     background-color: white;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5), -5px -5px 5px 0px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     top: 180px; /* Center vertically */
     left: 0px; /* Center horizontally */
@@ -376,7 +376,7 @@
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    top: 190px; 
+    top: 155px; 
     left:120px;
     font-size: 25px; 
 }
@@ -1041,6 +1041,9 @@ span.num
     margin: auto;
     margin-top: 65px;
 }
+.pchead a{
+    color: white !important;
+}
 .pctext{
     width: 80%;
     height: 60px;
@@ -1051,6 +1054,9 @@ span.num
     line-height: 30px;
     margin: auto;
     margin-top: 40px;
+}
+.pctext a{
+    color: white !important;
 }
 .pccard{
     width: 80%;
@@ -1277,6 +1283,9 @@ video{
     height: 420px;
     margin-top: 50px;
 }
+.blog-content a{
+    color: black !important;
+}
 .blog1, .blog2, .blog3{
     width: 30%;
     height: 420px;
@@ -1335,7 +1344,7 @@ video{
     line-height: 30px;
     word-spacing: 4px;
 }
-.bi-arrow-right-circle {
+.bi-arrow-right-circle  {
     position: relative; 
     left: 325px; 
     bottom: 18px;

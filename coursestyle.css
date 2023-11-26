@@ -28,28 +28,71 @@
     margin: auto !important;
     margin-top: 15px !important;
     padding-bottom: 12px;
-    border-bottom: solid grey;
+    border-bottom:2px solid rgb(211, 211, 211);
 }
 .col-1{
-    max-width: 3% !important;
+    /* width: 10px !important; */
+    flex: 0 0 22px !important;
+    /* max-width: 10px !important; */
+    height: 22px;
     text-align: center;
+    background-size: 100% 100%;
+    margin-right: 8px;
 }
+#facebook{
+    background-image: url(images/icons/facebook-grey.png);
+}
+#facebook:hover{
+    background-image:url(images/icons/facebook-orange.png) ;
+}
+#instagram{
+    background-image: url(images/icons/instagram-grey.png);
+}
+#instagram:hover{
+    background-image: url(images/icons/instagram-orange.png);
+}
+#linkedin{
+   background-image: url(images/icons/linkedin-grey.png);
+}
+#linkedin:hover{
+    background-image: url(images/icons/linkedin-orange.png);
+ }
+ #youtube{
+    background-image: url(images/icons/youtube-grey.png);
+ }
+ #youtube:hover{
+    background-image: url(images/icons/youtube-orange.png);
+ }
+ #twitter{
+    background-image: url(images/icons/twitter-grey.png);
+ }
+ #twitter:hover{
+    background-image: url(images/icons/twitter-oragne.png);
+ }
 .col-2{
+    width: 8% !important;
+    flex: 0 0 8% !important;
     max-width: 8% !important;
-    height: 20px !important;
+    height: 20px;
     text-align: center;
-    border-left: solid gray;
-    margin-left: 15px;
-    border-left: solid gray;
+    border-left:2px solid gray;
 }
-.col-5{ 
+.col-2:hover{
+    color: #f27330;
+}
+.col-5{
+    width: 20% !important;
+    flex: 0 0 20% !important;
     max-width: 20% !important;
-    margin-left: 37% !important;
+    margin-left: 35% !important;
     word-spacing: 5px;
 }
 .col-6{
-    max-width: 18% !important;
-    word-spacing: 2px;   
+    width: 17% !important;
+    flex: 0 0 17% !important;
+    max-width: 17% !important;
+    word-spacing: 2px; 
+    border-left: 2px solid gray; 
 }
 a{
     text-decoration: none !important;

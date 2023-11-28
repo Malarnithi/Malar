@@ -1,0 +1,118 @@
+.contact-container{
+    width:100%;
+    background-color: #19467e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-info {
+    width: 80%;
+    margin: auto;
+    color: white;
+    border-bottom: solid;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 1.5fr 1fr 1fr 1fr; 
+  }
+
+.contact-info p{
+    line-height: 33px;
+}
+
+  .location {
+    color: white;
+    word-spacing: 4px;
+  }
+  
+  .location-title {
+    font-size: 32px;
+    font-weight: 600px;
+  }
+
+  .cbe, .gobi{
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .city-heading{
+    color: #f17424;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 40px;
+  }
+
+  .address-details{
+    font-size: 19px;
+  }
+
+  .company-links,
+  .course-links,
+  .contact-us-links {
+    margin-left: 90px;
+    font-size: 19px;
+  }
+
+  .cnboxhead{
+    font-size: 32px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+ }
+  
+ .footer-container{
+    width: 100%;
+    background-color: #002655;
+    padding-top: 15px;
+    padding-bottom: 90px;
+}
+
+.footer-top{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #002655;
+}
+.company-info{
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns:1fr 20fr;
+}
+.company-info-left{
+    padding-right: 45px;
+    line-height: 25px;
+}
+.company-info-right{    
+    font-size: 18px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.extra-space {
+    word-spacing: 1px;
+    color: white !important;
+}
+.footer-bottom{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 19px;
+}
+.company-policy{
+    width: 68%;
+    float: left;
+    word-spacing: 32px;
+}
+.company-policy a{
+    text-decoration: none;
+}
+.copyright{
+    width: 31%;
+    float: left;
+    text-align: right;
+    color: white;
+}
+.white{
+    color: white;
+}

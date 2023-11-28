@@ -13,6 +13,25 @@
     height: 1100px;
     margin: auto;
 }
+.side-image1{
+    width:120px;
+    height: 400px;
+    position: absolute;
+    background-image: url(images/NS_PNG/Mask\ group-1.png);
+    background-size: 100% 100%;
+    left: 0px;
+    top:230px;
+}
+.side-image2{
+    width:120px;
+    height: 400px;
+    position: absolute;
+    background-image: url(images/NS_PNG/Mask\ group-1.png);
+    background-size: 100% 100%;
+    right: 0px;
+    top:680px;
+    transform: rotate(180deg);
+}
 .header{
     width: 100%;
     height: auto;
@@ -207,104 +226,98 @@ a{
     width: 100%;
     margin-top: 20px;
  } 
-
-  /* contact starts */
-.contact-container{
+ 
+ .contact-container{
     width:100%;
-    height: 480px;
     background-color: #19467e;
     font-family: 'Open Sans', sans-serif;
-    /* margin-top: 900px; */
 }
-.contact-info{
+
+.contact-info {
     width: 80%;
-    margin-left: 10%;
-    height: 478px;
+    margin: auto;
     color: white;
     border-bottom: solid;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: 1.5fr 1fr 1fr 1fr; 
+  }
+
+.contact-info p{
+    line-height: 33px;
 }
-.cnboxhead{
-   font-size: 35px;
-}
-.location{
-    width: 30%;
-    height: 320px;
-    float: left;
-    margin-top: 50px;
+
+  .location {
     color: white;
-}
-.company-links{
-    width: 15%;
-    height: 320px;
-    float: left;
-    margin-top: 50px;
+    word-spacing: 4px;
+  }
+  
+  .location-title {
+    font-size: 32px;
+    font-weight: 600px;
+  }
+
+  .cbe, .gobi{
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .city-heading{
+    color: #f17424;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 40px;
+  }
+
+  .address-details{
+    font-size: 19px;
+  }
+
+  .company-links,
+  .course-links,
+  .contact-us-links {
     margin-left: 90px;
     font-size: 19px;
-}
-.course-links{
-    width: 15%;
-    height: 320px;
-    float: left;
-    margin-top: 50px;
-    margin-left: 90px;
-    font-size: 19px;
-}
-.contact-us-links{
-    width: 17%;
-    height: 320px;
-    float: left;
-    margin-top: 50px;
-    margin-left: 90px;
-    font-size: 19px;
-}
-.cbe{
-    margin-top: 10px;
-    margin-bottom: 35px;
-}
-a.location-title{
-    font-size: 35px;
-    font-weight: 400px;
-    color: white !important;
-}
-p.location-title{
-    font-size: 35px;
-    font-weight: 400px;
-}
-/* page6 ends */
-/* page7 starts */
-.footer-container{
+  }
+
+  .cnboxhead{
+    font-size: 32px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+ }
+  
+ .footer-container{
     width: 100%;
-    height: 250px;
     background-color: #002655;
+    padding-top: 15px;
+    padding-bottom: 90px;
 }
+
 .footer-top{
     width: 80%;
-    height: 225px;
     margin: auto;
-    border: dotted;
     color: white;
     font-family: 'Open Sans', sans-serif;
     border-color: #002655;
 }
 .company-info{
     width: 100%;
-    height: 80px;
     margin-top: 40px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns:1fr 20fr;
 }
 .company-info-left{
-    width: 10%;
-    height:78px;
-    float: left;
-    margin-right: 60px;
+    padding-right: 45px;
+    line-height: 25px;
 }
 .company-info-right{    
-    width: 84%;
-    height:80px;
-    float: left;
     font-size: 18px;
     word-spacing: 3px;
     line-height: 30px;
-    margin-top: 10px;
 }
 .extra-space {
     word-spacing: 1px;
@@ -312,19 +325,19 @@ p.location-title{
 }
 .footer-bottom{
     width: 100%;
-    height: 40px;
     margin-top: 30px;
     font-size: 19px;
 }
 .company-policy{
     width: 68%;
-    height: 40px;
     float: left;
     word-spacing: 32px;
 }
+.company-policy a{
+    text-decoration: none;
+}
 .copyright{
     width: 31%;
-    height: 40px;
     float: left;
     text-align: right;
     color: white;
@@ -332,7 +345,192 @@ p.location-title{
 .white{
     color: white;
 }
-#pg6text.a{
-    color: white !important;
+
+
+
+@media screen and (max-width: 575.98px){
+    .content-main{
+        width: 100%;
+        margin: auto;
+    }
+    .side-image1{
+        display: none;
+    }
+    .side-image2{
+       display: none;
+    }
+    .col-5{
+       display: none;
+    }
+    .col-6{
+        display: none;
+    }
+    .logo{
+        float: none;
+        margin: auto;
+        margin-right: 56%;
+    }
+    .menu{
+        float: none;
+        word-spacing: 20px;
+    }
+    .menu-item {
+        font-size: 12px;
+    }
+    .contact-details{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .contact-details-left{
+        width: 90%;
+        float: none;
+        margin-bottom: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .bold{
+        font-size: 40px;
+        font-weight: 600px;
+    }
+    .district{
+        margin-top: 5px;
+    }
+    .address{
+        font-size: 12px;
+    }
+    .contact-details-right{
+        width: 100%;
+        float: none;
+    }
+    .small{
+        font-size: 30px !important;
+        font-weight: 600;
+    }
+    .space{
+        margin-left: 40px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    #inputbox.row {
+        width: 100% !important;
+        border-bottom: none;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+      }
+      .mb-3{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .submit{
+        width: 150px;
+        text-align: center;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+     .map{
+        display: none;
+     } 
+     
+    .contact-container{
+        width:100%;
+        display: none;
+    }
+    .contact-info{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .cnboxhead{
+       font-size: 35px;
+    }
+    .location{
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+    }
+    .company-links{
+       display: none;
+    }
+    .course-links{
+        display: none;
+    }
+    .contact-us-links{
+        display: none;
+    }
+    .cbe{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    a.location-title{
+        font-size: 25px;
+    }
+    p.location-title{
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    /* page6 ends */
+    /* page7 starts */
+    .footer-container{
+        width: 100%;
+        background-color: #002655;
+    }
+    .footer-top{
+        width: 100%;
+        margin: auto;
+        border: dotted;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        border-color: #002655;
+    }
+    .company-info{
+        height: 80px;
+        margin-top: 15px;
+    }
+    .company-info-left{
+        width: 50%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    .company-info-right{    
+        width: 100%;
+        float: none;
+        font-size: 12px;
+        word-spacing: 0px;
+        line-height: 15px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .extra-space {
+        word-spacing: 1px;
+        color: white !important;
+    }
+    .footer-bottom{
+        width: 100%;
+        margin-top: 120px;
+        font-size: 19px;
+    }
+    .company-policy{
+       display: none;
+    }
+    .copyright{
+        width: 100%;
+        height: 40px;
+        float: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    .white{
+        color: white;
+    }
+    .city-heading{
+        font-size: 16px;
+    }
+    #pg6text{
+        font-size: 12px !important;
+    }
 }
-/* contact page ends */

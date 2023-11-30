@@ -144,6 +144,12 @@
                     Development, From Frontend, To Backend, To Database And Even Debugging And Testing. In Short, The Developer Must Understand The App
                     Through And Through. Frontend Develoeprs Are More Sought After Beacuse Of Their Expertise Of Not In One But Multiple Technologies.
                 </div>
+                <div class="technology-sack-content">
+                    <div class="technology-sack-image1"></div>
+                    <div class="technology-sack-image2"></div>
+                    <div class="technology-sack-image3"></div>
+                    <div class="technology-sack-image4"></div>
+                </div>
             </div>
 
             <div class="course-highlights">
@@ -289,9 +295,8 @@
                     Understand The App Through and Through. Frontend Developers Are More Sought After 
                 </div>
                 <div class="course-fee-content">
+                    <div class="course-fee-beginner-circle">12.5k</div>
                     <div class="course-fee-beginner">
-                        <div class="course-fee-beginner-circle">
-                        </div>
                         <div class="course-fee-beginner-heading">
                             <span class="course-fee-text">Beginner</span>
                         </div>
@@ -306,9 +311,8 @@
                             <button class="get-a-plan">Get a plan</button>
                         </div>
                     </div>
+                    <div class="course-fee-intermediate-circle">Call Us</div>
                     <div class="course-fee-intermediate">
-                        <div class="course-fee-intermediate-circle">
-                        </div>
                         <div class="course-fee-intermediate-heading">
                             <span class="course-fee-text">Intermediate</span>
                         </div>
@@ -323,9 +327,8 @@
                             <button class="get-a-plan">Get a plan</button>
                         </div>
                     </div>
+                    <div class="course-fee-expertise-circle">Call Us</div>
                     <div class="course-fee-expertise">
-                        <div class="course-fee-expertise-circle">
-                        </div>
                         <div class="course-fee-expertise-heading">
                             <span class="course-fee-text">Expertise</span>
                         </div>
@@ -342,7 +345,48 @@
                     </div>
                 </div>
             </div>
-       
+             <script>
+document.addEventListener('DOMContentLoaded', function () {
+    function setupHoverEffect(container, circle, text) {
+        // Add mouseover event listener
+        container.addEventListener('mouseover', function () {
+            container.style.transform = 'translateY(-40px)';
+            circle.style.transform = 'translateY(0px)';
+            circle.style.top = '30px';
+            circle.style.zIndex = '1';
+            circle.style.backgroundColor = 'white';
+            circle.style.color = '#19467e'; 
+        });
+
+        // Add mouseout event listener
+        container.addEventListener('mouseout', function () {
+            container.style.transform = 'translateY(0)';
+            circle.style.transform = 'translateY(0)';
+            circle.style.top = '70px';
+            circle.style.zIndex = '1';
+            circle.style.backgroundColor = 'white';
+            circle.style.color = '#f27330'; 
+        });
+    }
+
+    // Get the elements
+    const beginnerContainer = document.querySelector('.course-fee-beginner');
+    const beginnerCircle = document.querySelector('.course-fee-beginner-circle');
+    const beginnerText = document.querySelector('.course-fee-beginner-text');
+    setupHoverEffect(beginnerContainer, beginnerCircle, beginnerText);
+
+    const intermediateContainer = document.querySelector('.course-fee-intermediate');
+    const intermediateCircle = document.querySelector('.course-fee-intermediate-circle');
+    const intermediateText = document.querySelector('.course-fee-intermediate-text');
+    setupHoverEffect(intermediateContainer, intermediateCircle, intermediateText);
+
+    const expertiseContainer = document.querySelector('.course-fee-expertise');
+    const expertiseCircle = document.querySelector('.course-fee-expertise-circle');
+    const expertiseText = document.querySelector('.course-fee-expertise-text');
+    setupHoverEffect(expertiseContainer, expertiseCircle, expertiseText);
+});
+
+             </script>
             <div class="course-certificate">
                 <div class="course-certificate-heading"><span class="blue">Course</span> <span class="orange">Certificate</span></div>
                 <div class="course-certificate-para">Full Stack Developers Are Developers That Design Complete Apps And Websites. These Developers Work On All Facets Of

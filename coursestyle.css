@@ -526,6 +526,11 @@ input[type="submit"] {
     left: 125px;
     z-index: 1;
     background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    color: #f27330;
+    font-size: 25px;
+    font-weight: 700;
 }
 .course-fee-intermediate-circle{
     left: 525px;
@@ -553,6 +558,9 @@ input[type="submit"] {
     .course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading {
         background-color: #f27330;
     }
+    .course-fee-beginner-heading, .course-fee-expertise-heading, .course-fee-intermediate-heading{
+       color: #19467e;
+    }
     .course-fee-text {
         color: white;
     }
@@ -560,17 +568,6 @@ input[type="submit"] {
         background-color: #f27330;
         color: white;
         border-color: #f27330;
-    }
-    .course-fee-beginner-circle, .course-fee-intermediate-circle, .course-fee-expertise-circle {
-        background-color: white;
-        top: -30px;
-        z-index: 1;
-    }
-    .course-fee-intermediate-circle{
-         left:125px;
-    }
-    .course-fee-expertise-circle{
-        left:125px;
     }
 }
 
@@ -686,6 +683,33 @@ input[type="submit"] {
     line-height: 35px;
     word-spacing: 4px;
     padding-bottom: 50px;
+}
+.technology-sack-content{
+    width:100%;
+    height: 1600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.technology-sack-image1{
+    background-image:url(images/icons/courseimage1.jpg) ;
+    background-size: 100% 100%;
+    margin-right: 60px;
+}
+.technology-sack-image2{
+    background-image:url(images/icons/courseimage2.jpg) ;
+    background-size: 100% 100%;
+    margin-right: 100px;
+}
+.technology-sack-image3{
+    background-image:url(images/icons/courseimage3.jpg) ;
+    background-size: 100% 100%;
+    margin-right: 60px;
+}
+.technology-sack-image4{
+    background-image:url(images/icons/courseimage4.jpg) ;
+    background-size: 100% 100%;
+    margin-right: 100px;
 }
 .grid-container {
     width: 80%;

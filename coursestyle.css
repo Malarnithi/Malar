@@ -30,8 +30,8 @@
 }
 .col-1{
     /* width: 10px !important; */
-    flex: 0 0 22px !important;
-    /* max-width: 10px !important; */
+    flex: 0 0 10px !important;
+    max-width: 6px !important;
     height: 22px;
     text-align: center;
     background-size: 100% 100%;
@@ -82,13 +82,13 @@
     width: 20% !important;
     flex: 0 0 20% !important;
     max-width: 20% !important;
-    margin-left: 35% !important;
+    margin-left: 36.5% !important;
     word-spacing: 5px;
 }
 .col-6{
-    width: 17% !important;
-    flex: 0 0 17% !important;
-    max-width: 17% !important;
+    width: 20% !important;
+    flex: 0 0 19% !important;
+    max-width: 20% !important;
     word-spacing: 2px; 
     border-left: 2px solid gray; 
 }
@@ -523,7 +523,7 @@ input[type="submit"] {
     border-radius: 50%;
     position: absolute;
     top: 70px;
-    left: 125px;
+    left: 118px;
     z-index: 1;
     background-color: white;
     text-align: center;
@@ -533,10 +533,10 @@ input[type="submit"] {
     font-weight: 700;
 }
 .course-fee-intermediate-circle{
-    left: 525px;
+    left: 515px;
 }
 .course-fee-expertise-circle{
-    left: 935px;
+    left: 910px;
 }
 .course-fee-intermediate{
     float:left;
@@ -764,6 +764,10 @@ input[type="submit"] {
     font-weight: 600;
     margin-top: -20px;
     margin-bottom: 100px;
+}
+.button-download:hover{
+    background-color: white;
+    color: #f27330;
 }
 .faq-section{
     width:80%;

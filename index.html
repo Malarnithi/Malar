@@ -151,25 +151,26 @@
         <div id="enquiryForm" class="popup">
             <div class="popup-content">
                 <span id="closeForm" class="close">&times;</span>
-                <form action="#" method="post">
+                <form id="contactForm"  action="https://formspree.io/f/xeqyjooz" method="POST">
                     <label for="name">Name*</label>
                     <input type="text" id="name" name="name" required placeholder="Enter your Full Name">
                     <label for="email">Email*</label>
                     <input type="email" id="email" name="email" required placeholder="Enter your Email">
                     <label for="number">Mobile Number*</label>
                     <input type="number" id="number" name="number" required placeholder="Enter your Mobile Number">
-                    <label for="course">What Course you are looking for</label>
-                        <div class="dropdown-input">
-                            <input type="text" id="courseInput" placeholder="Choose a course">
-                            <ul id="courseOptions" class="dropdown-options" style="display: none;">
-                                <li data-value="course1">Full Stack Development</li>
-                                <li data-value="course2">Flutter Development</li>
-                                <li data-value="course3">Phyton Development</li>
-                                <li data-value="course4">Digital Marketing</li>
-                            </ul>
-                        </div>
+                    <label for="course">What Course are you looking for</label>
+                    <div class="dropdown-input">
+                        <input type="text" id="courseInput" name="courseInput" placeholder="Choose a course">
+                        <ul id="courseOptions" class="dropdown-options">
+                            <li data-value="course1">Full Stack Development</li>
+                            <li data-value="course2">Flutter Development</li>
+                            <li data-value="course3">Python Development</li>
+                            <li data-value="course4">Digital Marketing</li>
+                        </ul>
+                    </div>
                     <input type="submit" value="Request a Call Back">
                 </form>
+                           
             </div>
         </div>
         <button class="enquiry-button" id="openFormButton">

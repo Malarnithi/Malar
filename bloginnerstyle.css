@@ -364,3 +364,182 @@ li{
 .white{
     color: white;
 }
+
+
+@media screen and (max-width: 575.98px){
+    .content-main{
+        width: 100%;
+        margin: auto;
+    }
+    .side-image1{
+        display: none;
+    }
+    .side-image2{
+       display: none;
+    }
+    .side-image3{
+       display: none;
+    }
+    .col-5{
+       display: none;
+    }
+    .col-6{
+        display: none;
+    }
+    .logo{
+        float: none;
+        margin: auto;
+        margin-right: 56%;
+    }
+    .menu{
+        float: none;
+        word-spacing: 20px;
+    }
+    .menu-item {
+        font-size: 12px;
+    }
+    .blog-main{
+        margin-top: 20px;
+    }
+    .blog-heading{
+        width: 100%;
+        line-height: 35px;
+    }
+    .blog-inner-content{
+        margin-top: 20px;
+    }
+    .blog-inner-image, .blognode-inner-image, .bloglinkedin-inner-image, .blogangular-inner-image,
+    .blogmobileapp-inner-image, .blogux-inner-image {
+        width: 100%;
+        height: 200px;
+    }
+    .blog-inner-head{
+        margin-top: 20px;   
+    }
+    .blog-inner-reference{
+        width:100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .blog-ref-img{
+        width: 20%;
+        height: 60px;
+    }
+    .blog-ref-text{
+        width: 60%;
+        height: 70px;
+        margin-left: 25px;
+        padding-top: 0px;
+    }
+    .blog-inner-para{
+        width: 100%;
+        font-size: 14px;
+    }
+    .head-text{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .primary-font{
+        font-size: 39px;
+    } 
+    .contact-container{
+        width:100%;
+        display: none;
+    }
+    .contact-info{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .cnboxhead{
+       font-size: 35px;
+    }
+    .location{
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+    }
+    .company-links{
+       display: none;
+    }
+    .course-links{
+        display: none;
+    }
+    .contact-us-links{
+        display: none;
+    }
+    .cbe{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    a.location-title{
+        font-size: 25px;
+    }
+    p.location-title{
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    /* page6 ends */
+    /* page7 starts */
+    .footer-container{
+        width: 100%;
+        background-color: #002655;
+    }
+    .footer-top{
+        width: 100%;
+        margin: auto;
+        border: dotted;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        border-color: #002655;
+    }
+    .company-info{
+        height: 80px;
+        margin-top: 15px;
+    }
+    .company-info-left{
+        width: 100%;
+        height: 60px;
+        float: none;
+        margin-left: 20px;
+    }
+    .company-info-right{    
+        width: 100%;
+        float: none;
+        font-size: 12px;
+        word-spacing: 0px;
+        line-height: 15px;
+        margin-top: 60px;
+        margin-left: 20px;
+        display: none;
+        padding-right: 20px;
+    }
+    .extra-space {
+        word-spacing: 1px;
+        color: white !important;
+    }
+    .footer-bottom{
+        width: 100%;
+        margin-top: 120px;
+        font-size: 19px;
+    }
+    .company-policy{
+       display: none;
+    }
+    .copyright{
+        width: 100%;
+        height: 40px;
+        float: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    .white{
+        color: white;
+    }
+    .city-heading{
+        font-size: 16px;
+    }
+    #pg6text{
+        font-size: 12px !important;
+    }
+}
